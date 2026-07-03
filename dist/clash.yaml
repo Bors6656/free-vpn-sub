@@ -1,0 +1,20 @@
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+proxies:
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - Auto
+  - name: Auto
+    type: url-test
+    proxies:
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+
+rules:
+  - MATCH,Proxy

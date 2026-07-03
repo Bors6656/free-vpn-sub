@@ -2,27 +2,25 @@
 """
 Free VPN Sub Generator
 拉取多个公开订阅/代理源，去重后输出标准 clash.yaml。
-每小时自动触发，无请求数限制（走 GitHub raw CDN）。
+每小时自动触发，无请求次数限制（走 GitHub raw CDN）。
 """
-import os, re, sys, base64, json, urllib.request, urllib.error
+import os, re, base64, json, urllib.request, urllib.error
 from datetime import datetime
 from collections import OrderedDict
 
-REQ_TIMEOUT = 15
-MAX_PROXIES = 120
+REQ_TIMEOUT = 20
+MAX_PROXIES = 150
 
-# 可自由增删源。格式: (type, url)
-#  type: "clash" | "base64" | "text"
 SOURCES = [
-    # 常见公益聚合源（保留相对稳定的历史源，失效请自行替换）
-    ("clash", "https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml"),
-    ("clash", "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"),
-    ("base64", "https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt"),
+    # 尽量选 GitHub raw 或较稳定公益源
+    ("base64", "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/trojan"),
+    ("base64", "https://raw.githubusercontent.com/freefq/free/master/v2"),
     ("base64", "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"),
-    ("base64", "https://raw.githubusercontent.com/liujf2857/Free-Node-Sub/main/sub"),
+    ("base64", "https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt"),
+    ("base64", "https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml"),
 ]
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; SubBot/1.0)"}
 
 
 def fetch(url: str) -> str:
@@ -32,27 +30,20 @@ def fetch(url: str) -> str:
 
 
 def try_parse_clash(text: str):
-    """处理纯 clash yaml 格式"""
-    # 极简 yaml 解析：只提取 proxies 数组，避免引入外部依赖
-    # 兼容标准 clash 配置
     m = re.search(r'(?m)^proxies:\s*\n(.*?)(?=\n\w|\Z)', text, re.DOTALL)
     if not m:
         return []
     block = m.group(1)
     proxies = []
-    # 按 "- name:" 拆分
     items = re.split(r'(?m)^\s*-\s+name:\s*', block)
     for item in items[1:]:
-        # 第一行是 name 值
         name = item.splitlines()[0].strip().strip('"').strip("'")
         proxy = {"name": name}
-        # 解析后续 key: value（有限缩进）
         for line in item.splitlines()[1:]:
             line = line.rstrip()
             m2 = re.match(r'^\s+([\w-]+)\s*:\s*(.+)$', line)
             if m2:
                 k, v = m2.group(1), m2.group(2).strip()
-                # 简单类型推断
                 if v.lower() == "true":
                     v = True
                 elif v.lower() == "false":
@@ -70,7 +61,6 @@ def try_parse_clash(text: str):
 
 def decode_base64_maybe(text: str) -> str:
     text = text.strip()
-    # 处理 pad 问题
     rem = len(text) % 4
     if rem:
         text += "=" * (4 - rem)
@@ -100,7 +90,6 @@ def try_parse_base64_link(link: str):
         except Exception:
             return None
     if link.startswith("ss://"):
-        # SIP002: ss://base64(method:password)@server:port#name
         try:
             body, _, name = link[5:].partition("#")
             if "@" in body:
@@ -139,7 +128,6 @@ def try_parse_base64_link(link: str):
                 "udp": True,
             }
     if link.startswith("vless://"):
-        # vless://uuid@server:port?params#name
         m = re.match(
             r"vless://([^@]+)@([^:/]+):(\d+)(?:\?([^#]*))?(?:#(.*))?$", link
         )
@@ -163,13 +151,10 @@ def try_parse_base64_link(link: str):
 
 def try_parse_base64(text: str):
     proxies = []
-    # 先判断是否为整段 base64
     stripped = text.strip()
     decoded = ""
-    # 如果肉眼像 base64（只含 A-Z a-z 0-9 + / = \n \r）
     if re.match(r"^[A-Za-z0-9+/=\s\r\n]+$", stripped) and len(stripped) > 20:
         decoded = decode_base64_maybe(stripped)
-    # 逐行解析协议链接
     for line in (decoded or stripped).splitlines():
         p = try_parse_base64_link(line)
         if p:
@@ -178,7 +163,6 @@ def try_parse_base64(text: str):
 
 
 def render_clash_yaml(proxies) -> str:
-    # 字段精简保真
     essential = ["type", "server", "port", "cipher", "password", "uuid",
                  "alterId", "network", "plugin-opts", "sni", "udp"]
     out = [
@@ -249,8 +233,6 @@ def main():
             txt = fetch(url)
             if kind == "clash":
                 nodes = try_parse_clash(txt)
-            elif kind == "base64":
-                nodes = try_parse_base64(txt)
             else:
                 nodes = try_parse_base64(txt)
             print(f"[+] {url} => {len(nodes)} nodes")
