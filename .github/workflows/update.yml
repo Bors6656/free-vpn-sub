@@ -2,8 +2,8 @@ name: Update Free Sub
 
 on:
   schedule:
-    - cron: '0 * * * *'   # 每小时第 0 分钟触发
-  workflow_dispatch:       # 允许手动触发
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -17,23 +17,30 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          clean: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
-        run: pip install pyyaml -q
-
       - name: Build sub
-        run: python build.py
+        run: |
+          python -c "import build" 2>/dev/null || true
+          python build.py
+          echo "---"
+          ls -la dist/
+          echo "---"
+          head -20 dist/clash.yaml
+          echo "---"
+          wc -l dist/clash.yaml
 
-      - name: Commit & Push
+      - name: Force commit & push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
-          git add dist/clash.yaml
-          git diff --quiet && echo "NO_CHANGE" && exit 0
-          git commit -m "chore(sub): auto update $(date '+%Y%m%d %H:%M')"
+          git add -A dist/
+          git status
+          git diff --cached --quiet && echo "STILL_NO_CHANGE" && exit 0
+          git commit -m "chore(sub): auto update $(date -u '+%Y%m%d %H:%M') UTC"
           git push
