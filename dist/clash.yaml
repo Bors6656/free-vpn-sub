@@ -132,71 +132,51 @@ proxies:
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "104.21.227.134"
+    server: "104.16.72.70"
     port: 443
-    uuid: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    uuid: "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
     network: "ws"
-    sni: "t1s1.rittbo.kdns.fr"
+    sni: "unnes.ac.id.yxls.eu.cc"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+  - name: "%E7%BE%8E%E5%9B%BD+%E5%8D%8E%E7%9B%9B%E9%A1%BFCogent%E9%80%9A%E4%BF%A1%E5%85%AC%E5%8F%B8"
     type: "trojan"
-    server: "104.16.174.44"
+    server: "38.60.220.65"
     port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
+    password: "t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak"
+    sni: "38.60.220.65"
     udp: true
 
-  - name: "%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
-    type: "trojan"
-    server: "185.137.157.135"
-    port: 443
-    password: "dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q"
-    sni: "185.137.157.135"
-    udp: true
+  - name: "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
+    type: "ss"
+    server: "193.168.175.56"
+    port: 14605
+    cipher: "chacha20-ietf-poly1305"
+    password: "Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY"
 
   - name: "%E6%B3%95%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "sca13.directdnsai.shop"
+    server: "sca25.directdnsai.shop"
     port: 8880
     uuid: "8dc7722c-2767-4eea-a28b-2f8daacc07e3"
     network: "grpc"
-    sni: "sca13.directdnsai.shop"
+    sni: "sca25.directdnsai.shop"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "www.speedtest.net"
+  - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+    type: "trojan"
+    server: "185.126.236.44"
     port: 443
-    uuid: "c3722a1b-6699-4904-b4f2-24a554df2f26"
-    network: "ws"
-    sni: "line.sugerdood.qzz.io"
+    password: "BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL"
+    sni: "www.mesaly.click"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "trojan"
-    server: "167.82.101.252"
+    server: "149.104.104.58"
     port: 443
-    password: "MiTiVPN"
-    sni: "ssl.fastly.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "yx.cloudflare.182682.xyz"
-    port: 443
-    uuid: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    network: "ws"
-    sni: "t1s1.rittbo.kdns.fr"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "gt-ch-01.live"
-    port: 8443
-    uuid: "05a01432-0302-439f-a88d-8442cd27b7d5"
-    network: "tcp"
-    sni: "storage.yandex.net"
+    password: "S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix"
+    sni: "149.104.104.58"
     udp: true
 
   - name: "%E5%8D%B0%E5%BA%A6+V2CROSS.COM"
@@ -206,30 +186,46 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY"
 
-  - name: "%E6%96%B0%E5%8A%A0%E5%9D%A1+Choopa%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+  - name: "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
+    type: "vless"
+    server: "45.194.66.12"
+    port: 8765
+    uuid: "d45fba72-a95f-488e-87f6-7c27294cdf50"
+    network: "raw"
+    sni: "www.amazon.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "it.fifapes.monster"
+    port: 29148
+    uuid: "eab915bc-d2df-73d1-47d0-6eb240497055"
+    network: "tcp"
+    sni: "it.fifapes.monster"
+    udp: true
+
+  - name: "%E5%8D%B0%E5%BA%A6+V2CROSS.COM"
     type: "ss"
-    server: "45.32.122.179"
-    port: 23027
+    server: "103.111.114.82"
+    port: 28061
     cipher: "chacha20-ietf-poly1305"
-    password: "I-bP3lFh.dTG3XitF7XtVK83CZ7rI2Ut=n"
+    password: "WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm"
 
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+  - name: "%E6%B3%95%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "104.17.131.138"
-    port: 443
-    uuid: "6680846a-8a57-4dfd-9a0e-63209cfc8535"
-    network: "ws"
-    sni: "support.zoom.us.yxls.eu.cc"
+    server: "sca14.speedmeter.shop"
+    port: 8880
+    uuid: "8dc7722c-2767-4eea-a28b-2f8daacc07e3"
+    network: "grpc"
+    sni: "sca14.speedmeter.shop"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "172.64.52.134"
-    port: 8443
-    uuid: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    network: "ws"
-    sni: "t1s1.rittbo.kdns.fr"
-    udp: true
+  - name: "%E7%BE%8E%E5%9B%BD+%E5%8D%8E%E7%9B%9B%E9%A1%BFCogent%E9%80%9A%E4%BF%A1%E5%85%AC%E5%8F%B8"
+    type: "ss"
+    server: "38.180.221.145"
+    port: 17283
+    cipher: "chacha20-ietf-poly1305"
+    password: "bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa"
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0049"
     type: "ss"
@@ -1175,17 +1171,17 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+%E5%8D%8E%E7%9B%9B%E9%A1%BFCogent%E9%80%9A%E4%BF%A1%E5%85%AC%E5%8F%B8"
+      - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
       - "%E6%B3%95%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E5%8D%B0%E5%BA%A6+V2CROSS.COM"
-      - "%E6%96%B0%E5%8A%A0%E5%9D%A1+Choopa%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E5%8D%B0%E5%BA%A6+V2CROSS.COM"
+      - "%E6%B3%95%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+%E5%8D%8E%E7%9B%9B%E9%A1%BFCogent%E9%80%9A%E4%BF%A1%E5%85%AC%E5%8F%B8"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0049"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0051"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0050"
@@ -1208,17 +1204,17 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+%E5%8D%8E%E7%9B%9B%E9%A1%BFCogent%E9%80%9A%E4%BF%A1%E5%85%AC%E5%8F%B8"
+      - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
       - "%E6%B3%95%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E5%8D%B0%E5%BA%A6+V2CROSS.COM"
-      - "%E6%96%B0%E5%8A%A0%E5%9D%A1+Choopa%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E5%8D%B0%E5%BA%A6+V2CROSS.COM"
+      - "%E6%B3%95%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+%E5%8D%8E%E7%9B%9B%E9%A1%BFCogent%E9%80%9A%E4%BF%A1%E5%85%AC%E5%8F%B8"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0049"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0051"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0050"
