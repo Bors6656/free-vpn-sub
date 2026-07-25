@@ -130,21 +130,31 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E9%9F%A9%E5%9B%BD+KT%E7%94%B5%E4%BF%A1"
+  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
     type: "vless"
-    server: "59.12.232.18"
-    port: 11481
-    uuid: "57d68ec3-6cc5-10e9-2bca-5ba3994aa783"
+    server: "194.87.161.60"
+    port: 4100
+    uuid: "9b44bfb4-9d28-4870-9fc3-5154d6d462ff"
     network: "ws"
-    sni: "l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr"
+    sni: "194.87.161.60"
     udp: true
 
-  - name: "%E5%8C%97%E7%BE%8E%E5%9C%B0%E5%8C%BA+V2CROSS.COM"
-    type: "trojan"
-    server: "198.62.62.23"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "premium-us-ca-01-gthost.efgwf.online"
+    port: 8080
+    uuid: "4e0f4e59-3613-4f0c-b824-7348413d20e6"
+    network: "ws"
+    sni: "premium-us-ca-01-gthost.efgwf.online"
+    udp: true
+
+  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+    type: "vless"
+    server: "s306.ccgfw.top"
     port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
+    uuid: "5d02517f-63d5-3e9f-b467-1bcf4d4e25d3"
+    network: "tcp"
+    sni: "u695099u36cf43b9s298.wagahaha.xyz"
     udp: true
 
   - name: "%E5%8D%B0%E5%BA%A6+V2CROSS.COM"
@@ -154,17 +164,18 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm"
 
-  - name: "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
-    type: "trojan"
-    server: "188.164.248.122"
+  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+    type: "vless"
+    server: "212.192.15.191"
     port: 443
-    password: "c206d543-023d-46cc-9d5a-1f0f2fc16323"
-    sni: "space.byu.id.yxls.eu.cc"
+    uuid: "5d02517f-63d5-3e9f-b467-1bcf4d4e25d3"
+    network: "tcp"
+    sni: "u695099u36cf43b9s298.wagahaha.xyz"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "152.53.127.214"
+    server: "jdwabxe.cvewfjg.shop"
     port: 443
     uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
     network: "tcp"
@@ -1156,14 +1167,6 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "Xsy8Ox4yOV3xLlpxtjzs3X"
 
-  - name: "%F0%9F%87%A6%F0%9F%87%BAAU-87.121.33.27-0204"
-    type: "trojan"
-    server: "eternal-frog.rooster465.autos"
-    port: 443
-    password: "IQ68037294"
-    sni: "eternal-frog.rooster465.autos"
-    udp: true
-
 proxy-groups:
   - name: Proxy
     type: select
@@ -1184,10 +1187,11 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E9%9F%A9%E5%9B%BD+KT%E7%94%B5%E4%BF%A1"
-      - "%E5%8C%97%E7%BE%8E%E5%9C%B0%E5%8C%BA+V2CROSS.COM"
+      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
       - "%E5%8D%B0%E5%BA%A6+V2CROSS.COM"
-      - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
+      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0062"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-137.184.174.93-0056"
@@ -1198,7 +1202,6 @@ proxy-groups:
       - "%F0%9F%87%BA%F0%9F%87%B8US-138.199.42.68-0060"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0063"
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.174-0088"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-54.167.54.100-0058"
   - name: Auto
     type: url-test
     proxies:
@@ -1217,10 +1220,11 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E9%9F%A9%E5%9B%BD+KT%E7%94%B5%E4%BF%A1"
-      - "%E5%8C%97%E7%BE%8E%E5%9C%B0%E5%8C%BA+V2CROSS.COM"
+      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
       - "%E5%8D%B0%E5%BA%A6+V2CROSS.COM"
-      - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
+      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0062"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-137.184.174.93-0056"
@@ -1231,7 +1235,6 @@ proxy-groups:
       - "%F0%9F%87%BA%F0%9F%87%B8US-138.199.42.68-0060"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0063"
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.174-0088"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-54.167.54.100-0058"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
