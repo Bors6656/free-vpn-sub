@@ -130,6 +130,30 @@ proxies:
     alterId: 0
     network: "ws"
 
+  - name: "%E9%9F%A9%E5%9B%BD+KT%E7%94%B5%E4%BF%A1"
+    type: "vless"
+    server: "59.12.232.18"
+    port: 11481
+    uuid: "57d68ec3-6cc5-10e9-2bca-5ba3994aa783"
+    network: "ws"
+    sni: "l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr"
+    udp: true
+
+  - name: "%E5%8C%97%E7%BE%8E%E5%9C%B0%E5%8C%BA+V2CROSS.COM"
+    type: "trojan"
+    server: "198.62.62.23"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    udp: true
+
+  - name: "%E5%8D%B0%E5%BA%A6+V2CROSS.COM"
+    type: "ss"
+    server: "103.111.114.71"
+    port: 28061
+    cipher: "chacha20-ietf-poly1305"
+    password: "WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm"
+
   - name: "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
     type: "trojan"
     server: "188.164.248.122"
@@ -138,22 +162,13 @@ proxies:
     sni: "space.byu.id.yxls.eu.cc"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2"
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "18.239.134.69"
-    port: 80
-    uuid: "f55ce6cc-3f6b-40fc-9e3b-abe26db17009"
-    network: "ws"
-    sni: "18.239.134.69"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "cloudflare-ip.mofashi.ltd"
+    server: "152.53.127.214"
     port: 443
-    uuid: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    network: "ws"
-    sni: "t1s1.rittbo.kdns.fr"
+    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
+    network: "tcp"
+    sni: "www.cloudflare.com"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0062"
@@ -1149,22 +1164,6 @@ proxies:
     sni: "eternal-frog.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%A6%F0%9F%87%BAAU-87.121.33.171-0203"
-    type: "trojan"
-    server: "87.121.33.171"
-    port: 443
-    password: "OD90375861"
-    sni: "selected-bison.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%A6%F0%9F%87%BAAU-87.121.33.171-0201"
-    type: "trojan"
-    server: "selected-bison.rooster465.autos"
-    port: 443
-    password: "KV63147582"
-    sni: "selected-bison.rooster465.autos"
-    udp: true
-
 proxy-groups:
   - name: Proxy
     type: select
@@ -1185,9 +1184,11 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
+      - "%E9%9F%A9%E5%9B%BD+KT%E7%94%B5%E4%BF%A1"
+      - "%E5%8C%97%E7%BE%8E%E5%9C%B0%E5%8C%BA+V2CROSS.COM"
+      - "%E5%8D%B0%E5%BA%A6+V2CROSS.COM"
       - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0062"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-137.184.174.93-0056"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0057"
@@ -1198,8 +1199,6 @@ proxy-groups:
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0063"
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.174-0088"
       - "%F0%9F%87%BA%F0%9F%87%B8US-54.167.54.100-0058"
-      - "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.151-0069"
-      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.202-0087"
   - name: Auto
     type: url-test
     proxies:
@@ -1218,9 +1217,11 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
+      - "%E9%9F%A9%E5%9B%BD+KT%E7%94%B5%E4%BF%A1"
+      - "%E5%8C%97%E7%BE%8E%E5%9C%B0%E5%8C%BA+V2CROSS.COM"
+      - "%E5%8D%B0%E5%BA%A6+V2CROSS.COM"
       - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0062"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-137.184.174.93-0056"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0057"
@@ -1231,8 +1232,6 @@ proxy-groups:
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0063"
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.174-0088"
       - "%F0%9F%87%BA%F0%9F%87%B8US-54.167.54.100-0058"
-      - "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.151-0069"
-      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.202-0087"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
