@@ -132,74 +132,29 @@ proxies:
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "199.232.170.177"
+    server: "199.232.170.222"
     port: 80
     uuid: "cfde0aba-0985-4034-ab92-50b1534b126c"
     network: "ws"
-    sni: "BankMelat.glObal.ssl.faStly.nEt"
-    udp: true
-
-  - name: "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
-    type: "vless"
-    server: "89.116.46.50"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    network: "ws"
-    sni: "89.116.46.50"
+    sni: "199.232.170.222"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "199.232.170.211"
+    server: "199.232.170.228"
     port: 80
     uuid: "cfde0aba-0985-4034-ab92-50b1534b126c"
     network: "ws"
-    sni: "199.232.170.211"
+    sni: "199.232.170.228"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "199.232.170.127"
+    server: "199.232.170.175"
     port: 80
     uuid: "cfde0aba-0985-4034-ab92-50b1534b126c"
     network: "ws"
-    sni: "199.232.170.127"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "199.232.170.106"
-    port: 80
-    uuid: "cfde0aba-0985-4034-ab92-50b1534b126c"
-    network: "ws"
-    sni: "199.232.170.106"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "199.232.170.47"
-    port: 80
-    uuid: "cfde0aba-0985-4034-ab92-50b1534b126c"
-    network: "ws"
-    sni: "199.232.170.47"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "199.232.170.210"
-    port: 80
-    uuid: "cfde0aba-0985-4034-ab92-50b1534b126c"
-    network: "ws"
-    sni: "199.232.170.210"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "199.232.170.141"
-    port: 80
-    uuid: "cfde0aba-0985-4034-ab92-50b1534b126c"
-    network: "ws"
-    sni: "199.232.170.141"
+    sni: "199.232.170.175"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
@@ -211,48 +166,102 @@ proxies:
     sni: "199.232.170.61"
     udp: true
 
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "199.232.170.56"
+    port: 80
+    uuid: "cfde0aba-0985-4034-ab92-50b1534b126c"
+    network: "ws"
+    sni: "199.232.170.56"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "167.82.0.4"
+    port: 80
+    uuid: "c9380ef8-23f8-422e-81fe-ebbb032202cf"
+    network: "ws"
+    sni: "167.82.0.4"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "199.232.170.127"
+    port: 80
+    uuid: "cfde0aba-0985-4034-ab92-50b1534b126c"
+    network: "ws"
+    sni: "199.232.170.127"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2"
+    type: "vless"
+    server: "18.239.134.69"
+    port: 80
+    uuid: "f55ce6cc-3f6b-40fc-9e3b-abe26db17009"
+    network: "ws"
+    sni: "18.239.134.69"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "198.41.208.252"
+    port: 8880
+    uuid: "9e648bb6-25f7-4b16-9949-55ac0952d66b"
+    network: "ws"
+    sni: "198.41.208.252"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "162.159.38.206"
+    port: 8443
+    uuid: "29ca503d-e6b8-4509-b666-48133f450857"
+    network: "ws"
+    sni: "learn00.evany.de5.net"
+    udp: true
+
+  - name: "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
+    type: "vless"
+    server: "gr1.fifapes.monster"
+    port: 8882
+    uuid: "eab915bc-d2df-73d1-47d0-6eb240497055"
+    network: "tcp"
+    sni: "gr1.fifapes.monster"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "ad-004.vector9nmb3.info"
+    port: 8443
+    uuid: "901fc0c9-ae4c-4d06-9fed-253b25b68a0e"
+    network: "ws"
+    sni: "ad-004.vector9nmb3.info"
+    udp: true
+
   - name: "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
     type: "trojan"
     server: "oplosgru-c.catcat321.com"
-    port: 20068
+    port: 20023
     password: "ba07a8af-5544-48ac-ab62-3b6c00a44fa6"
     sni: "hk.catxstar.com"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "199.232.170.134"
+    server: "199.232.170.147"
     port: 80
     uuid: "cfde0aba-0985-4034-ab92-50b1534b126c"
     network: "ws"
-    sni: "199.232.170.134"
-    udp: true
-
-  - name: "%E5%B7%B4%E8%A5%BF+%E5%9C%A3%E4%BF%9D%E7%BD%97Host1Plus%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-    type: "vless"
-    server: "pl.mifbot.pro"
-    port: 49000
-    uuid: "11113f77-b439-4911-a8dd-414d2ee36b59"
-    network: "grpc"
-    sni: "git.sly.team"
-    udp: true
-
-  - name: "%E6%AF%94%E5%88%A9%E6%97%B6+V2CROSS.COM"
-    type: "vless"
-    server: "155.117.137.201"
-    port: 443
-    uuid: "7d6d3391-7bf8-46bf-bd2e-01e82a790017"
-    network: "tcp"
-    sni: "cdn2-07.yahoo.com"
+    sni: "199.232.170.147"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "199.232.170.107"
+    server: "167.82.0.1"
     port: 80
-    uuid: "cfde0aba-0985-4034-ab92-50b1534b126c"
+    uuid: "c9380ef8-23f8-422e-81fe-ebbb032202cf"
     network: "ws"
-    sni: "199.232.170.107"
+    sni: "167.82.0.1"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
@@ -264,39 +273,40 @@ proxies:
     sni: "199.232.170.194"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+Fastly%E5%85%A8%E7%90%83Anycast%E8%8A%82%E7%82%B9"
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "151.101.193.54"
+    server: "199.232.170.192"
     port: 80
-    uuid: "c9380ef8-23f8-422e-81fe-ebbb032202cf"
+    uuid: "cfde0aba-0985-4034-ab92-50b1534b126c"
     network: "ws"
-    sni: "151.101.193.54"
-    udp: true
-
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-    type: "vless"
-    server: "78.111.89.171"
-    port: 443
-    uuid: "0370b162-baff-4757-86cc-cce4bf07f6f1"
-    network: "tcp"
-    sni: "www.cloudflare.com"
-    udp: true
-
-  - name: "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-    type: "trojan"
-    server: "oplosgru-c.catcat321.com"
-    port: 20066
-    password: "ba07a8af-5544-48ac-ab62-3b6c00a44fa6"
-    sni: "hk.catxstar.com"
+    sni: "199.232.170.192"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "104.16.27.134"
-    port: 80
-    uuid: "df301b32-1152-4526-9a63-beedd93d3156"
+    server: "108.162.192.161"
+    port: 443
+    uuid: "29ca503d-e6b8-4509-b666-48133f450857"
     network: "ws"
-    sni: "104.16.27.134"
+    sni: "learn00.evany.de5.net"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+%E4%B9%94%E6%B2%BB%E4%BA%9A%E6%B4%B2%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7Fastly%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "151.101.56.7"
+    port: 80
+    uuid: "c9380ef8-23f8-422e-81fe-ebbb032202cf"
+    network: "ws"
+    sni: "BankMelat.glObal.ssl.faStly.nEt."
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "134.122.85.126"
+    port: 53996
+    uuid: "efc9ffd0-aff8-4f3a-b0f9-1c1777a4e2c4"
+    network: "tcp"
+    sni: "timeline.www.cloudflare.com"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-6125"
@@ -1146,14 +1156,6 @@ proxies:
     sni: "sterling-fowl.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%B8%F0%9F%87%ACSG-91.243.81.26-0178"
-    type: "trojan"
-    server: "full-mackerel.rooster465.autos"
-    port: 443
-    password: "IQ68037294"
-    sni: "full-mackerel.rooster465.autos"
-    udp: true
-
 proxy-groups:
   - name: Proxy
     type: select
@@ -1175,18 +1177,18 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E5%B7%B4%E8%A5%BF+%E5%9C%A3%E4%BF%9D%E7%BD%97Host1Plus%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E6%AF%94%E5%88%A9%E6%97%B6+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
   - name: Auto
@@ -1208,18 +1210,18 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E5%B7%B4%E8%A5%BF+%E5%9C%A3%E4%BF%9D%E7%BD%97Host1Plus%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E6%AF%94%E5%88%A9%E6%97%B6+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     url: http://www.gstatic.com/generate_204
