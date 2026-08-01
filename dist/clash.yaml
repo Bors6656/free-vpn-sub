@@ -130,67 +130,22 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E6%B3%95%E5%9B%BD+%E5%9B%BD%E9%99%85%E8%88%AA%E7%A9%BA%E7%94%B5%E8%AE%AF%E9%9B%86%E5%9B%A2%E5%85%AC%E5%8F%B8%28SITA%29"
+  - name: "%E4%BC%8A%E6%9C%97+%E7%A7%91%E6%8A%80%E7%A0%94%E7%A9%B6%E9%99%A2"
     type: "vless"
-    server: "it.speedserver.site"
-    port: 5039
-    uuid: "a5bea439-6176-4b5d-a891-bd31fc3530c9"
+    server: "62.60.148.98"
+    port: 34197
+    uuid: "ffc5ea45-cbed-4fd7-94dc-37c2bccafc84"
     network: "tcp"
-    sni: "www.yahoo.com"
+    sni: "www.tesla.com"
     udp: true
 
-  - name: "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "178.17.53.177"
-    port: 34151
-    uuid: "e80398bb-aecb-4686-a75c-dfe4cd8ce242"
-    network: "tcp"
-    sni: "178.17.53.177"
-    udp: true
-
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+%E8%8E%AB%E6%96%AF%E7%A7%91TransTeleCom%E5%85%AC%E5%8F%B8"
-    type: "vless"
-    server: "188.43.105.233"
-    port: 7098
-    uuid: "152003f4-7659-43eb-88b3-da1dfad2a223"
-    network: "tcp"
-    sni: "static.vk.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "172.64.153.57"
-    port: 8443
-    uuid: "29ca503d-e6b8-4509-b666-48133f450857"
-    network: "ws"
-    sni: "learn00.evany.de5.net"
-    udp: true
-
-  - name: "美国 Microsoft数据中心"
-    type: "vmess"
-    server: "cindy52.ceoiii.com"
-    port: 36803
-    cipher: "auto"
-    uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
-    alterId: 0
-    network: "ws"
-
-  - name: "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
-    type: "vless"
-    server: "88.218.44.4"
-    port: 993
-    uuid: "7c74b0e4-f132-5583-4692-622a7d6b71a4"
-    network: "tcp"
-    sni: "swcdn.apple.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "cmcc.877774.xyz"
+    server: "jdwabxe.cvewfjg.shop"
     port: 443
-    uuid: "29ca503d-e6b8-4509-b666-48133f450857"
-    network: "ws"
-    sni: "learn00.evany.de5.net"
+    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
+    network: "tcp"
+    sni: "www.cloudflare.com"
     udp: true
 
   - name: "美国 V2CROSS.COM"
@@ -204,12 +159,21 @@ proxies:
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "162.159.44.58"
-    port: 8443
+    server: "108.162.193.0"
+    port: 443
     uuid: "29ca503d-e6b8-4509-b666-48133f450857"
     network: "ws"
     sni: "learn00.evany.de5.net"
     udp: true
+
+  - name: "美国 Microsoft数据中心"
+    type: "vmess"
+    server: "cindy52.ceoiii.com"
+    port: 36803
+    cipher: "auto"
+    uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
+    alterId: 0
+    network: "ws"
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
@@ -229,357 +193,293 @@ proxies:
     sni: "178.17.53.177"
     udp: true
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0178"
-    type: "ss"
-    server: "37.19.198.236"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
+  - name: "%E4%BC%8A%E6%9C%97+%E7%A7%91%E6%8A%80%E7%A0%94%E7%A9%B6%E9%99%A2"
+    type: "vless"
+    server: "62.60.148.98"
+    port: 55327
+    uuid: "ba5a5970-d35b-4bd6-a0e0-33350dc3ef03"
+    network: "tcp"
+    sni: "www.tesla.com"
+    udp: true
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0082"
-    type: "ss"
-    server: "37.19.198.243"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "104.21.2.192"
     port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
+    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
+    network: "ws"
+    sni: "support.zoom.us.yxls.eu.cc"
+    udp: true
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0080"
+  - name: "%E7%BE%8E%E5%9B%BD+%E5%AE%BE%E5%88%A9%E5%A4%A7%E5%AD%A6"
+    type: "vless"
+    server: "141.133.172.222"
+    port: 20342
+    uuid: "5eecb34f-c905-4c77-b7fb-d830b451cd11"
+    network: "tcp"
+    sni: "141.133.172.222"
+    udp: true
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0088"
     type: "ss"
     server: "37.19.198.244"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0081"
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0089"
     type: "ss"
     server: "37.19.198.160"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-138.199.42.68-6106"
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0086"
+    type: "ss"
+    server: "37.19.198.236"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0087"
+    type: "ss"
+    server: "37.19.198.243"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-98.81.132.97-3131"
+    type: "ss"
+    server: "98.81.132.97"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-3.91.76.154-0423"
+    type: "ss"
+    server: "3.91.76.154"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-138.199.42.68-0090"
     type: "ss"
     server: "138.199.42.68"
     port: 8080
     cipher: "rc4-md5"
     password: "14fFPrbezE3HDZzsMOr6"
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.168-0074"
+  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-137.184.174.93-0183"
     type: "ss"
-    server: "156.146.38.168"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.149-0109"
-    type: "ss"
-    server: "82.38.31.149"
+    server: "137.184.174.93"
     port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    cipher: "rc4-md5"
+    password: "14fFPrbezE3HDZzsMOr6"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.184-0107"
-    type: "ss"
-    server: "82.38.31.184"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.46-0097"
-    type: "ss"
-    server: "82.38.31.46"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.187-0090"
-    type: "ss"
-    server: "82.38.31.187"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.217-0098"
-    type: "ss"
-    server: "82.38.31.217"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.194-0099"
-    type: "ss"
-    server: "82.38.31.194"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.167-0075"
-    type: "ss"
-    server: "156.146.38.167"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.34-0105"
-    type: "ss"
-    server: "82.38.31.34"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.223-0111"
-    type: "ss"
-    server: "193.29.139.223"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.151-0110"
-    type: "ss"
-    server: "193.29.139.151"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.147-0116"
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.147-0102"
     type: "ss"
     server: "193.29.139.147"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.191-0106"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.2-0167"
     type: "ss"
-    server: "82.38.31.191"
+    server: "82.38.31.2"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.194-0097"
+    type: "ss"
+    server: "82.38.31.194"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-146.70.61.37-0177"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.199-0171"
     type: "ss"
-    server: "146.70.61.37"
-    port: 8080
-    cipher: "rc4-md5"
-    password: "14fFPrbezE3HDZzsMOr6"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.36-0102"
-    type: "ss"
-    server: "82.38.31.36"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.235-0089"
-    type: "ss"
-    server: "193.29.139.235"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.170-0077"
-    type: "ss"
-    server: "156.146.38.170"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.208-0091"
-    type: "ss"
-    server: "82.38.31.208"
+    server: "82.38.31.199"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.155-0084"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.149-0092"
     type: "ss"
-    server: "82.38.31.155"
+    server: "82.38.31.149"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.210-0100"
-    type: "ss"
-    server: "82.38.31.210"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.176-0161"
-    type: "ss"
-    server: "82.38.31.176"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.179-0119"
-    type: "ss"
-    server: "82.38.31.179"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.189-0103"
-    type: "ss"
-    server: "82.38.31.189"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.15-0112"
-    type: "ss"
-    server: "82.38.31.15"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.174-0101"
-    type: "ss"
-    server: "82.38.31.174"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.48-0096"
-    type: "ss"
-    server: "82.38.31.48"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.35-0085"
-    type: "ss"
-    server: "82.38.31.35"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.216-0095"
-    type: "ss"
-    server: "82.38.31.216"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.204-0122"
-    type: "ss"
-    server: "193.29.139.204"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.49-0104"
-    type: "ss"
-    server: "82.38.31.49"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.202-0108"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.202-0121"
     type: "ss"
     server: "82.38.31.202"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
 
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.168-6055"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.217-0096"
     type: "ss"
-    server: "193.29.139.168"
+    server: "82.38.31.217"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
-    password: "QCXDxuDlTTMD7jtgHUjIoj"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.35-0092"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.216-0118"
     type: "ss"
-    server: "82.38.31.35"
+    server: "82.38.31.216"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0076"
-    type: "ss"
-    server: "156.146.38.169"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.174-0088"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.174-0125"
     type: "ss"
     server: "82.38.31.174"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.57-0086"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.189-0113"
+    type: "ss"
+    server: "82.38.31.189"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.34-0099"
+    type: "ss"
+    server: "82.38.31.34"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.179-0112"
+    type: "ss"
+    server: "82.38.31.179"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.210-0110"
+    type: "ss"
+    server: "82.38.31.210"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.57-0126"
     type: "ss"
     server: "82.38.31.57"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.205-0094"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.174-0115"
     type: "ss"
-    server: "82.38.31.205"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-109.201.152.181-0130"
-    type: "ss"
-    server: "109.201.152.181"
+    server: "82.38.31.174"
     port: 443
-    cipher: "aes-128-cfb"
-    password: "shadowsocks"
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.214-0114"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.191-0103"
     type: "ss"
-    server: "82.38.31.214"
+    server: "82.38.31.191"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.186-0093"
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.235-0106"
     type: "ss"
-    server: "82.38.31.186"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.10-0113"
-    type: "ss"
-    server: "82.38.31.10"
+    server: "193.29.139.235"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
 
-  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-108.181.118.10-0120"
-    type: "ss"
-    server: "108.181.118.10"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "G5p6ww4o67HB"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.16-0123"
-    type: "ss"
-    server: "82.38.31.16"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0079"
-    type: "ss"
-    server: "108.181.0.177"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "G5p6ww4o67HB"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.192-0115"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.192-0135"
     type: "ss"
     server: "82.38.31.192"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-163.245.196.68-0117"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.214-0129"
+    type: "ss"
+    server: "82.38.31.214"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0134"
+    type: "ss"
+    server: "108.181.0.177"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "G5p6ww4o67HB"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-54.226.30.144-3133"
+    type: "ss"
+    server: "54.226.30.144"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.48-0116"
+    type: "ss"
+    server: "82.38.31.48"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.223-0100"
+    type: "ss"
+    server: "193.29.139.223"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.46-0094"
+    type: "ss"
+    server: "82.38.31.46"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.10-0131"
+    type: "ss"
+    server: "82.38.31.10"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-108.181.118.10-0132"
+    type: "ss"
+    server: "108.181.118.10"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "G5p6ww4o67HB"
+
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.151-0101"
+    type: "ss"
+    server: "193.29.139.151"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.155-0109"
+    type: "ss"
+    server: "82.38.31.155"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-146.70.61.37-0104"
+    type: "ss"
+    server: "146.70.61.37"
+    port: 8080
+    cipher: "rc4-md5"
+    password: "14fFPrbezE3HDZzsMOr6"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-163.245.196.68-0136"
     type: "trojan"
     server: "163.245.196.68"
     port: 49361
@@ -587,49 +487,133 @@ proxies:
     sni: "163.245.196.68.sslip.io"
     udp: true
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0083"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.205-0127"
+    type: "ss"
+    server: "82.38.31.205"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.186-0130"
+    type: "ss"
+    server: "82.38.31.186"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.15-0114"
+    type: "ss"
+    server: "82.38.31.15"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0137"
     type: "ss"
     server: "173.244.56.6"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0118"
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-109.201.152.181-0128"
     type: "ss"
-    server: "173.244.56.9"
+    server: "109.201.152.181"
     port: 443
-    cipher: "aes-128-gcm"
+    cipher: "aes-128-cfb"
     password: "shadowsocks"
 
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-108.181.126.122-0129"
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-108.181.126.122-0139"
     type: "ss"
     server: "108.181.126.122"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "CJmTCCx7Ltud"
 
-  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0125"
-    type: "ss"
-    server: "149.22.95.183"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-108.181.58.239-0127"
-    type: "ss"
-    server: "108.181.58.239"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "CJmTCCx7Ltud"
-
-  - name: "%F0%9F%87%A9%F0%9F%87%AADE-209.46.102.22-0124"
+  - name: "%F0%9F%87%A9%F0%9F%87%AADE-209.46.102.22-0142"
     type: "ss"
     server: "209.46.102.22"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "1hhrqrokj3ag"
 
-  - name: "%F0%9F%87%AD%F0%9F%87%B0HK-18.163.180.201-0128"
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0138"
+    type: "ss"
+    server: "173.244.56.9"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-108.181.58.239-0141"
+    type: "ss"
+    server: "108.181.58.239"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "CJmTCCx7Ltud"
+
+  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0140"
+    type: "ss"
+    server: "149.22.95.183"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.187-0095"
+    type: "ss"
+    server: "82.38.31.187"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%B8%F0%9F%87%AASE-13.61.5.244-0422"
+    type: "ss"
+    server: "13.61.5.244"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.204-0119"
+    type: "ss"
+    server: "193.29.139.204"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.49-0120"
+    type: "ss"
+    server: "82.38.31.49"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%B9%F0%9F%87%B7TR-188.41.249.20-0150"
+    type: "ss"
+    server: "Vpna.Poorifast.ir"
+    port: 1080
+    cipher: "chacha20-ietf-poly1305"
+    password: "rYfi4cQ3z7zts7BO4-Y9_A"
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-149.22.87.240-0148"
+    type: "ss"
+    server: "149.22.87.240"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-149.22.87.241-0147"
+    type: "ss"
+    server: "149.22.87.241"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-149.22.87.204-0149"
+    type: "ss"
+    server: "149.22.87.204"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%AD%F0%9F%87%B0HK-18.163.180.201-0143"
     type: "trojan"
     server: "18.163.180.201"
     port: 6357
@@ -637,221 +621,93 @@ proxies:
     sni: "www.nintendogames.net"
     udp: true
 
-  - name: "🇨🇦CA-158.51.121.63-0549"
-    type: "vmess"
-    server: "158.51.121.63"
-    port: 443
-    cipher: "auto"
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    network: "ws"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-141.98.101.179-0137"
-    type: "ss"
-    server: "141.98.101.179"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-141.98.101.181-0138"
-    type: "ss"
-    server: "141.98.101.181"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-149.22.87.241-0134"
-    type: "ss"
-    server: "149.22.87.241"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-149.22.87.240-0132"
-    type: "ss"
-    server: "149.22.87.240"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-149.22.87.204-0133"
-    type: "ss"
-    server: "149.22.87.204"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%B9%F0%9F%87%B7TR-188.41.249.20-0136"
-    type: "ss"
-    server: "Vpna.Poorifast.ir"
-    port: 1080
-    cipher: "chacha20-ietf-poly1305"
-    password: "rYfi4cQ3z7zts7BO4-Y9_A"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-141.98.101.182-0141"
-    type: "ss"
-    server: "141.98.101.182"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-216.105.168.18-0126"
-    type: "ss"
-    server: "216.105.168.18"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "hCCWOcIsK5wrFz4OX70rWf"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-141.98.101.178-0139"
-    type: "ss"
-    server: "141.98.101.178"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%BF%F0%9F%87%A6ZA-102.37.156.224-0143"
+  - name: "%F0%9F%87%BF%F0%9F%87%A6ZA-102.37.156.224-0154"
     type: "ss"
     server: "102.37.156.224"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "aduB9HGxQHjA2SBMRjkHX6"
 
-  - name: "🇯🇵JP-45.76.202.45-6123"
-    type: "vmess"
-    server: "45.76.202.45"
-    port: 4010
-    cipher: "auto"
-    uuid: "071a8a71-c656-4fb6-a908-4e42eb72243d"
-    alterId: 0
-    network: "ws"
-
-  - name: "%F0%9F%87%BF%F0%9F%87%A6ZA-102.133.165.160-0144"
+  - name: "%F0%9F%87%BF%F0%9F%87%A6ZA-102.133.165.160-0156"
     type: "ss"
     server: "102.133.165.160"
     port: 16233
     cipher: "chacha20-ietf-poly1305"
     password: "Xsy8Ox4yOV3xLlpxtjzs3X"
 
-  - name: "🇩🇪DE-2.26.54.218-0552"
-    type: "vmess"
-    server: "panel.safeconfigmasoud.com"
-    port: 443
-    cipher: "auto"
-    uuid: "f7983cd4-e487-4138-bde3-477ab31ba25d"
-    alterId: 0
-    network: "ws"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-94.156.250.148-0131"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-94.156.250.148-0158"
     type: "ss"
     server: "94.156.250.148"
     port: 7001
     cipher: "aes-256-gcm"
     password: "RexnBgU7EV5ADxG"
 
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-154.64.226.149-0159"
-    type: "trojan"
-    server: "rr2.tube-cat.com"
-    port: 9450
-    password: "ba07a8af-5544-48ac-ab62-3b6c00a44fa6"
-    sni: "hk.catxstar.com"
-    udp: true
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.218-0148"
-    type: "ss"
-    server: "82.38.31.218"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "🇰🇷KR-152.67.218.38-0152"
-    type: "vmess"
-    server: "152.67.218.38"
-    port: 443
-    cipher: "auto"
-    uuid: "b5e9480a-b7aa-40a4-f9a7-5299b5e363b4"
-    alterId: 0
-    network: "ws"
-
-  - name: "%F0%9F%87%B9%F0%9F%87%BCTW-61.231.49.125-0147"
-    type: "ss"
-    server: "r3mrcg00129437x.cybervena.com"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.219-0155"
-    type: "ss"
-    server: "82.38.31.219"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-213.109.147.242-0153"
-    type: "ss"
-    server: "213.109.147.242"
-    port: 62685
-    cipher: "chacha20-ietf-poly1305"
-    password: "VpKABcOpNNA0l5G2AVOmw8"
-
-  - name: "%F0%9F%87%B9%F0%9F%87%BCTW-36.224.191.247-0149"
+  - name: "%F0%9F%87%B9%F0%9F%87%BCTW-36.224.191.247-0165"
     type: "ss"
     server: "r3mrcg001286ek2.cybervena.com"
     port: 50099
     cipher: "chacha20-ietf-poly1305"
     password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
 
-  - name: "%F0%9F%87%B9%F0%9F%87%BCTW-61.231.49.122-0146"
+  - name: "%F0%9F%87%B9%F0%9F%87%BCTW-61.231.30.84-0166"
     type: "ss"
     server: "r3mrcg001287h3p.cybervena.com"
     port: 50099
     cipher: "chacha20-ietf-poly1305"
     password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.2-0087"
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.167-0098"
     type: "ss"
-    server: "82.38.31.2"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%AD%F0%9F%87%B0HK-103.149.182.105-6111"
-    type: "ss"
-    server: "103.149.182.105"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
-
-  - name: "%F0%9F%87%B8%F0%9F%87%AASE-13.53.198.63-0135"
-    type: "ss"
-    server: "13.53.198.63"
+    server: "156.146.38.167"
     port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
 
-  - name: "🇲🇽MX-68.155.139.204-0567"
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.170-0107"
+    type: "ss"
+    server: "156.146.38.170"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0124"
+    type: "ss"
+    server: "156.146.38.169"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.168-0091"
+    type: "ss"
+    server: "156.146.38.168"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "🇲🇾MY-20.17.157.81-2096"
     type: "vmess"
-    server: "cindy50.ceoiii.com"
-    port: 36801
+    server: "cindy52.ceoiii.com"
+    port: 36803
     cipher: "auto"
     uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
     alterId: 0
     network: "ws"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.199-0151"
+  - name: "%F0%9F%87%AA%F0%9F%87%B8ES-5.188.181.201-5913"
     type: "ss"
-    server: "82.38.31.199"
-    port: 8080
+    server: "5.188.181.201"
+    port: 9001
+    cipher: "aes-256-cfb"
+    password: "UkXRsXvR6buDMG2Y"
+
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-213.109.147.242-0164"
+    type: "ss"
+    server: "213.109.147.242"
+    port: 62685
     cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    password: "VpKABcOpNNA0l5G2AVOmw8"
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-141.164.45.187-0163"
-    type: "ss"
-    server: "141.164.45.187"
-    port: 6679
-    cipher: "aes-256-gcm"
-    password: "TEzjfAYq2IjtuoS"
-
-  - name: "🇮🇳IN-152.67.8.205-0156"
+  - name: "🇮🇳IN-152.67.8.205-0173"
     type: "vmess"
     server: "152.67.8.205"
     port: 80
@@ -860,83 +716,100 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-211.178.105.134-0160"
+  - name: "%F0%9F%87%AA%F0%9F%87%B8ES-5.188.181.201-5916"
     type: "ss"
-    server: "211.178.105.134"
-    port: 6123
+    server: "5.188.181.201"
+    port: 9025
     cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
+    password: "XPtzA9sCug3SPR4c"
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-221.139.79.57-0165"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.176-0111"
     type: "ss"
-    server: "221.139.79.57"
-    port: 13979
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-218.237.185.230-0162"
-    type: "ss"
-    server: "218.237.185.230"
-    port: 4652
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-218.237.185.230-0166"
-    type: "ss"
-    server: "p141.panda001.net"
-    port: 4652
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-
-  - name: "🇭🇰HK-47.244.120.197-6115"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 36703
-    cipher: "auto"
-    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
-    alterId: 0
-    network: "ws"
-
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-92.112.126.90-0167"
-    type: "ss"
-    server: "switcher-nick-croquet.freesocks.work"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "9tqhMdIrTkgQ46PvhyAtMH"
-
-  - name: "🇭🇰HK-47.244.120.197-6116"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 44867
-    cipher: "auto"
-    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
-    alterId: 0
-    network: "ws"
-
-  - name: "%F0%9F%87%B2%F0%9F%87%B3MN-103.168.56.77-3531"
-    type: "trojan"
-    server: "103.168.56.77"
-    port: 443
-    password: "4f2c305b-9a03-4493-b3e4-2dff2f1af8c9"
-    sni: "103.168.56.77"
-    udp: true
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-185.44.76.188-5627"
-    type: "trojan"
-    server: "185.44.76.188"
-    port: 443
-    password: "8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272"
-    sni: "185.44.76.188"
-    udp: true
-
-  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-137.184.174.93-0078"
-    type: "ss"
-    server: "137.184.174.93"
+    server: "82.38.31.176"
     port: 8080
-    cipher: "rc4-md5"
-    password: "14fFPrbezE3HDZzsMOr6"
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
 
-  - name: "🇯🇵JP-45.76.202.45-0121"
+  - name: "%F0%9F%87%AD%F0%9F%87%B0HK-103.141.221.124-5959"
+    type: "ss"
+    server: "103.141.221.124"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.218-0160"
+    type: "ss"
+    server: "82.38.31.218"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "🏁RELAY-172.67.176.245-0538"
+    type: "vmess"
+    server: "172.67.176.245"
+    port: 443
+    cipher: "auto"
+    uuid: "0632bfa9-b15c-4257-8c75-32f7c0c53b27"
+    alterId: 0
+    network: "ws"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.219-0163"
+    type: "ss"
+    server: "82.38.31.219"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AD%F0%9F%87%B0HK-103.149.183.113-5956"
+    type: "ss"
+    server: "103.149.183.113"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
+
+  - name: "%F0%9F%87%AD%F0%9F%87%B0HK-103.149.183.12-5958"
+    type: "ss"
+    server: "103.149.183.12"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
+
+  - name: "%F0%9F%87%B9%F0%9F%87%BCTW-61.231.49.125-0162"
+    type: "ss"
+    server: "r3mrcg00129437x.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "%F0%9F%87%AD%F0%9F%87%B0HK-103.149.183.80-5957"
+    type: "ss"
+    server: "103.149.183.80"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
+
+  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-141.164.45.187-0258"
+    type: "ss"
+    server: "141.164.45.187"
+    port: 7001
+    cipher: "aes-256-gcm"
+    password: "RexnBgU7EV5ADxG"
+
+  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-141.164.45.187-0172"
+    type: "ss"
+    server: "141.164.45.187"
+    port: 6679
+    cipher: "aes-256-gcm"
+    password: "TEzjfAYq2IjtuoS"
+
+  - name: "%F0%9F%87%AD%F0%9F%87%B0HK-103.149.182.79-6098"
+    type: "ss"
+    server: "103.149.182.79"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
+
+  - name: "🇯🇵JP-45.76.202.45-6110"
     type: "vmess"
     server: "45.76.202.45"
     port: 4010
@@ -945,189 +818,241 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "🏁RELAY-104.23.102.53-0071"
-    type: "vmess"
-    server: "104.23.102.53"
-    port: 443
-    cipher: "auto"
-    uuid: "5c84e109-4772-4efb-a1cb-7b09d5a1791e"
-    alterId: 0
-    network: "ws"
-
-  - name: "🇸🇬SG-13.215.173.29-0070"
-    type: "vmess"
-    server: "13.215.173.29"
-    port: 80
-    cipher: "auto"
-    uuid: "afa18cca-fa20-4506-c778-41e1dad3c315"
-    alterId: 0
-    network: "ws"
-
-  - name: "🇺🇸US-149.57.199.151-0069"
-    type: "vmess"
-    server: "149.57.199.151"
-    port: 30345
-    cipher: "auto"
-    uuid: "ba771461-5a4a-43f1-a61b-20d48e49e756"
-    alterId: 0
-    network: "ws"
-
-  - name: "🇺🇸US-149.57.199.151-0068"
-    type: "vmess"
-    server: "149.57.199.151"
-    port: 30345
-    cipher: "auto"
-    uuid: "ba771461-5a4a-43f1-a61b-20d48e49e756"
-    alterId: 0
-    network: "ws"
-
-  - name: "🇸🇬SG-152.69.222.253-0067"
-    type: "vmess"
-    server: "152.69.222.253"
-    port: 11188
-    cipher: "auto"
-    uuid: "19f2bc05-4012-4528-ba51-9a59f55ec123"
-    alterId: 0
-    network: "ws"
-
-  - name: "🇺🇸US-20.106.74.17-0066"
-    type: "vmess"
-    server: "20.106.74.17"
-    port: 23690
-    cipher: "auto"
-    uuid: "4928085d-637e-4b9e-e26d-e14627a45c46"
-    alterId: 0
-    network: "ws"
-
-  - name: "🇭🇰HK-20.2.71.124-0065"
-    type: "vmess"
-    server: "20.2.71.124"
-    port: 80
-    cipher: "auto"
-    uuid: "bc4167fa-7394-3869-b9c0-67ae18b40f2f"
-    alterId: 0
-    network: "ws"
-
-  - name: "🇭🇰HK-20.205.112.252-0064"
-    type: "vmess"
-    server: "20.205.112.252"
-    port: 12059
-    cipher: "auto"
-    uuid: "4b6cd9cd-76a5-4a7c-aa8e-e252cf605157"
-    alterId: 0
-    network: "ws"
-
-  - name: "🇯🇵JP-20.243.200.245-0063"
-    type: "vmess"
-    server: "20.243.200.245"
-    port: 80
-    cipher: "auto"
-    uuid: "bc4167fa-7394-3869-b9c0-67ae18b40f2f"
-    alterId: 0
-    network: "ws"
-
-  - name: "🇯🇵JP-20.243.200.245-0062"
-    type: "vmess"
-    server: "20.243.200.245"
-    port: 80
-    cipher: "auto"
-    uuid: "bc4167fa-7394-3869-b9c0-67ae18b40f2f"
-    alterId: 0
-    network: "ws"
-
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-38.68.134.191-0061"
+  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-218.237.185.230-0176"
     type: "ss"
-    server: "38.68.134.191"
-    port: 8080
+    server: "218.237.185.230"
+    port: 4652
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+
+  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-211.178.105.134-0174"
+    type: "ss"
+    server: "211.178.105.134"
+    port: 6123
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-141.98.101.179-0145"
+    type: "ss"
+    server: "141.98.101.179"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-141.98.101.181-0146"
+    type: "ss"
+    server: "141.98.101.181"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "🇭🇰HK-47.244.120.197-6100"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 36703
+    cipher: "auto"
+    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
+    alterId: 0
+    network: "ws"
+
+  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-221.139.79.57-0175"
+    type: "ss"
+    server: "221.139.79.57"
+    port: 13979
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-141.98.101.178-0153"
+    type: "ss"
+    server: "141.98.101.178"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-141.98.101.182-0151"
+    type: "ss"
+    server: "141.98.101.182"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-52.13.16.81-3569"
+    type: "ss"
+    server: "52.13.16.81"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+
+  - name: "%F0%9F%87%B9%F0%9F%87%BCTW-211.72.35.157-3684"
+    type: "trojan"
+    server: "211.72.35.157"
+    port: 3389
+    password: "8b475d9e868e43e0"
+    sni: "211.72.35.157"
+    udp: true
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-78.129.253.9-0085"
+    type: "ss"
+    server: "78.129.253.9"
+    port: 809
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
+
+  - name: "🇬🇧GB-51.137.133.181-0084"
+    type: "vmess"
+    server: "51.137.133.181"
+    port: 13828
+    cipher: "auto"
+    uuid: "2b5ee2ed-ddaa-4f13-a86c-ee47acf26a0e"
+    alterId: 0
+    network: "ws"
+
+  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-85.208.108.93-0083"
+    type: "ss"
+    server: "85.208.108.93"
+    port: 7306
     cipher: "aes-256-gcm"
-    password: "KixLvKzwjekG00rm"
+    password: "FoOiGlkAA9yPEGP"
 
-  - name: "🇨🇾CY-45.88.178.137-0060"
-    type: "vmess"
-    server: "45.88.178.137"
-    port: 11188
-    cipher: "auto"
-    uuid: "dfe0bd78-0454-4923-8f21-111550a876c9"
-    alterId: 0
-    network: "ws"
-
-  - name: "🇮🇩ID-103.180.95.29-0055"
-    type: "vmess"
-    server: "lms.uin-antasari.ac.id"
-    port: 80
-    cipher: "auto"
-    uuid: "46bfdb59-83c6-4710-877e-c809b5a90dff"
-    alterId: 0
-    network: "ws"
-
-  - name: "🏁RELAY-104.19.174.68-0053"
-    type: "vmess"
-    server: "www.digitalocean.com"
-    port: 443
-    cipher: "auto"
-    uuid: "3df66137-a428-429c-a858-8b150721b354"
-    alterId: 0
-    network: "ws"
-
-  - name: "%F0%9F%87%B5%F0%9F%87%B1PL-194.15.196.106-0052"
+  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-85.208.108.20-0082"
     type: "ss"
-    server: "194.15.196.106"
+    server: "85.208.108.20"
     port: 5601
     cipher: "aes-256-gcm"
     password: "Y6R9pAtvxxzmGC"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-212.38.189.174-0051"
+  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-85.208.108.93-0081"
     type: "ss"
-    server: "212.38.189.174"
-    port: 7307
+    server: "85.208.108.93"
+    port: 6379
     cipher: "aes-256-gcm"
-    password: "FoOiGlkAA9yPEGP"
+    password: "zDNVedRFPQexG9v"
 
-  - name: "🇰🇷KR-45.43.41.222-0050"
-    type: "vmess"
-    server: "45.43.41.222"
-    port: 27121
-    cipher: "auto"
-    uuid: "b37d0e60-9d05-46fd-96dd-b27732af89d2"
-    alterId: 0
-    network: "ws"
+  - name: "%F0%9F%87%B8%F0%9F%87%ACSG-81.90.189.152-0079"
+    type: "ss"
+    server: "81.90.189.152"
+    port: 801
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
 
-  - name: "🇰🇷KR-45.43.41.222-0049"
-    type: "vmess"
-    server: "45.43.41.222"
-    port: 54541
-    cipher: "auto"
-    uuid: "b7a8130f-92e6-4d4f-d0ac-336c164fed48"
-    alterId: 0
-    network: "ws"
+  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-85.208.108.93-0078"
+    type: "ss"
+    server: "85.208.108.93"
+    port: 7002
+    cipher: "aes-256-gcm"
+    password: "RexnBgU7EV5ADxG"
 
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.179.203.229-0140"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.36-0105"
+    type: "ss"
+    server: "82.38.31.36"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-185.172.113.102-0077"
+    type: "ss"
+    server: "185.172.113.102"
+    port: 802
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-185.172.113.101-0076"
+    type: "ss"
+    server: "185.172.113.101"
+    port: 812
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.208-0108"
+    type: "ss"
+    server: "82.38.31.208"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-133.18.230.121-0075"
     type: "trojan"
-    server: "v2jp.k1.ssnss.live"
-    port: 44184
-    password: "d050aca3-9df2-4461-90ec-92373c1d7636"
-    sni: "v2jp.k1.ssnss.live"
+    server: "trs05.bolab.net"
+    port: 443
+    password: "1b753dd99c1291e87a7b239f2928fedd"
+    sni: "trs05.bolab.net"
     udp: true
 
-  - name: "🇸🇬SG-13.215.173.29-0048"
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-185.172.113.106-0074"
+    type: "ss"
+    server: "185.172.113.106"
+    port: 806
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-185.172.113.102-0073"
+    type: "ss"
+    server: "185.172.113.102"
+    port: 804
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-185.172.113.106-0072"
+    type: "ss"
+    server: "185.172.113.106"
+    port: 805
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-89.31.126.150-0071"
+    type: "ss"
+    server: "89.31.126.150"
+    port: 802
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-185.172.113.106-0070"
+    type: "ss"
+    server: "185.172.113.106"
+    port: 802
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
+
+  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-85.208.108.18-0069"
+    type: "ss"
+    server: "85.208.108.18"
+    port: 8888
+    cipher: "aes-256-gcm"
+    password: "Y6R9pAtvxxzmGC"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-38.68.134.85-0068"
+    type: "ss"
+    server: "38.68.134.85"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "pKEW8JPByTVTLtM"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.35-0117"
+    type: "ss"
+    server: "82.38.31.35"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "🇸🇬SG-8.214.33.158-0067"
     type: "vmess"
-    server: "13.215.173.29"
+    server: "8.214.33.158"
     port: 80
     cipher: "auto"
-    uuid: "afa18cca-fa20-4506-c778-41e1dad3c315"
+    uuid: "cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef"
     alterId: 0
     network: "ws"
 
-  - name: "🇲🇾MY-47.250.45.234-0142"
+  - name: "🇷🇴RO-109.166.39.205-0066"
     type: "vmess"
-    server: "47.250.45.234"
-    port: 8613
+    server: "109.166.39.205"
+    port: 39205
     cipher: "auto"
-    uuid: "80039b4d-bac0-4f89-82c7-54fad3b0a1ea"
+    uuid: "548cfd27-e18f-406b-84f6-74de849e27b8"
     alterId: 0
     network: "ws"
 
-  - name: "🇮🇳IN-13.71.83.59-0047"
+  - name: "🇮🇳IN-13.71.83.59-0065"
     type: "vmess"
     server: "13.71.83.59"
     port: 44444
@@ -1136,32 +1061,61 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "🇦🇺AU-13.77.58.181-0046"
-    type: "vmess"
-    server: "13.77.58.181"
-    port: 17489
-    cipher: "auto"
-    uuid: "6ee315ac-9967-4207-b336-687719f8c8b0"
-    alterId: 0
-    network: "ws"
+  - name: "%F0%9F%87%AB%F0%9F%87%B7FR-195.154.200.150-0064"
+    type: "ss"
+    server: "195.154.200.150"
+    port: 2376
+    cipher: "aes-256-gcm"
+    password: "faBAoD54k87UJG7"
 
-  - name: "🇲🇾MY-47.250.45.234-0145"
-    type: "vmess"
-    server: "47.250.45.234"
-    port: 43063
-    cipher: "auto"
-    uuid: "c77f48f5-4be3-4461-b52b-49998e7b897b"
-    alterId: 0
-    network: "ws"
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.168-0122"
+    type: "ss"
+    server: "193.29.139.168"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "QCXDxuDlTTMD7jtgHUjIoj"
 
-  - name: "🇰🇷KR-146.56.118.227-0045"
-    type: "vmess"
-    server: "146.56.118.227"
-    port: 2052
-    cipher: "auto"
-    uuid: "448a9087-28f3-4fe4-fa49-36c912e0f498"
-    alterId: 0
-    network: "ws"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.35-0123"
+    type: "ss"
+    server: "82.38.31.35"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-138.68.248.130-0063"
+    type: "ss"
+    server: "138.68.248.130"
+    port: 811
+    cipher: "chacha20-ietf-poly1305"
+    password: "Ultr@r00t_2017"
+
+  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-196.247.59.154-0062"
+    type: "ss"
+    server: "196.247.59.154"
+    port: 802
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
+
+  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-196.247.59.154-0060"
+    type: "ss"
+    server: "196.247.59.154"
+    port: 801
+    cipher: "chacha20-ietf-poly1305"
+    password: "G!yBwPWH3Vao"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-169.197.142.187-0059"
+    type: "ss"
+    server: "169.197.142.187"
+    port: 8882
+    cipher: "aes-256-gcm"
+    password: "kDWvXYZoTBcGkC4"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-167.88.61.175-0058"
+    type: "ss"
+    server: "167.88.61.175"
+    port: 8888
+    cipher: "aes-256-gcm"
+    password: "Y6R9pAtvxxzmGC"
 
 proxy-groups:
   - name: Proxy
@@ -1183,21 +1137,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E6%B3%95%E5%9B%BD+%E5%9B%BD%E9%99%85%E8%88%AA%E7%A9%BA%E7%94%B5%E8%AE%AF%E9%9B%86%E5%9B%A2%E5%85%AC%E5%8F%B8%28SITA%29"
-      - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+%E8%8E%AB%E6%96%AF%E7%A7%91TransTeleCom%E5%85%AC%E5%8F%B8"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "美国 Microsoft数据中心"
-      - "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E4%BC%8A%E6%9C%97+%E7%A7%91%E6%8A%80%E7%A0%94%E7%A9%B6%E9%99%A2"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "美国 V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "美国 Microsoft数据中心"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0178"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0082"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0080"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0081"
+      - "%E4%BC%8A%E6%9C%97+%E7%A7%91%E6%8A%80%E7%A0%94%E7%A9%B6%E9%99%A2"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+%E5%AE%BE%E5%88%A9%E5%A4%A7%E5%AD%A6"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0088"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0089"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0086"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0087"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-98.81.132.97-3131"
   - name: Auto
     type: url-test
     proxies:
@@ -1216,21 +1170,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E6%B3%95%E5%9B%BD+%E5%9B%BD%E9%99%85%E8%88%AA%E7%A9%BA%E7%94%B5%E8%AE%AF%E9%9B%86%E5%9B%A2%E5%85%AC%E5%8F%B8%28SITA%29"
-      - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+%E8%8E%AB%E6%96%AF%E7%A7%91TransTeleCom%E5%85%AC%E5%8F%B8"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "美国 Microsoft数据中心"
-      - "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E4%BC%8A%E6%9C%97+%E7%A7%91%E6%8A%80%E7%A0%94%E7%A9%B6%E9%99%A2"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "美国 V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "美国 Microsoft数据中心"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0178"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0082"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0080"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0081"
+      - "%E4%BC%8A%E6%9C%97+%E7%A7%91%E6%8A%80%E7%A0%94%E7%A9%B6%E9%99%A2"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+%E5%AE%BE%E5%88%A9%E5%A4%A7%E5%AD%A6"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0088"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0089"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0086"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0087"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-98.81.132.97-3131"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
