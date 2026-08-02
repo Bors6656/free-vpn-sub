@@ -131,29 +131,11 @@ proxies:
     network: "ws"
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "jdwabxe.cvewfjg.shop"
-    port: 443
-    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
-    network: "raw"
-    sni: "www.cloudflare.com"
-    udp: true
-
-  - name: "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
     type: "trojan"
-    server: "86.38.214.205"
+    server: "149.104.104.58"
     port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "%E5%B7%B4%E8%A5%BF%E5%9C%A3%E4%BF%9D%E7%BD%97+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "188.114.98.66"
-    port: 443
-    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
-    network: "ws"
-    sni: "support.zoom.us.yxls.eu.cc"
+    password: "S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix"
+    sni: "149.104.104.58"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
@@ -165,14 +147,32 @@ proxies:
     sni: "dtac.exp.dog"
     udp: true
 
-  - name: "香港 阿里云"
-    type: "vmess"
-    server: "lcv8v9l7oyamxxfz.v.3dns.vip"
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "152.53.239.182"
     port: 443
-    cipher: "auto"
-    uuid: "f23bb427c1f94373876c2f43e9f790f3"
-    alterId: 0
+    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
+    network: "tcp"
+    sni: "www.cloudflare.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "ad-004.pixel9xdmq.info"
+    port: 8443
+    uuid: "901fc0c9-ae4c-4d06-9fed-253b25b68a0e"
     network: "ws"
+    sni: "ad-004.pixel9xdmq.info"
+    udp: true
+
+  - name: "台湾省 中华电信(HiNet)数据中心"
+    type: "vmess"
+    server: "lt.badns.help"
+    port: 51360
+    cipher: "auto"
+    uuid: "85ad21e1-c2cd-3407-aa90-815f3f3ea636"
+    alterId: 0
+    network: "tcp"
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
@@ -183,13 +183,13 @@ proxies:
     sni: "www.cloudflare.com"
     udp: true
 
-  - name: "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
+  - name: "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
     type: "vless"
-    server: "88.218.44.4"
-    port: 993
-    uuid: "7c74b0e4-f132-5583-4692-622a7d6b71a4"
+    server: "62.238.51.180"
+    port: 1234
+    uuid: "8b0c48db-c228-47d9-b634-6ea6edf81e22"
     network: "tcp"
-    sni: "dl.google.com"
+    sni: "62.238.51.180"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0120"
@@ -1136,12 +1136,12 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
-      - "%E5%B7%B4%E8%A5%BF%E5%9C%A3%E4%BF%9D%E7%BD%97+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "香港 阿里云"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "台湾省 中华电信(HiNet)数据中心"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0120"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-108.181.118.10-0126"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0140"
@@ -1169,12 +1169,12 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
-      - "%E5%B7%B4%E8%A5%BF%E5%9C%A3%E4%BF%9D%E7%BD%97+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "香港 阿里云"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "台湾省 中华电信(HiNet)数据中心"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0120"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-108.181.118.10-0126"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0140"
