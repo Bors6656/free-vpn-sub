@@ -132,83 +132,28 @@ proxies:
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
+    server: "104.16.72.41"
+    port: 80
+    uuid: "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51"
+    network: "ws"
+    sni: "104.16.72.41"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.18.152.144"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
     server: "162.159.33.118"
     port: 443
     uuid: "29ca503d-e6b8-4509-b666-48133f450857"
     network: "ws"
     sni: "learn00.evany.de5.net"
-    udp: true
-
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-    type: "vless"
-    server: "94.139.251.23"
-    port: 443
-    uuid: "eadcacfa-ef1a-4901-a28b-8815fa1962a5"
-    network: "raw"
-    sni: "apple.com"
-    udp: true
-
-  - name: "伊朗 V2CROSS.COM"
-    type: "vmess"
-    server: "tun1.wizardx1.com"
-    port: 2078
-    cipher: "auto"
-    uuid: "8c207682-e007-4a0d-88a3-68b8638b3d10"
-    alterId: 0
-    network: "tcp"
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "162.159.38.165"
-    port: 2087
-    uuid: "29ca503d-e6b8-4509-b666-48133f450857"
-    network: "ws"
-    sni: "learn00.evany.de5.net"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "172.67.169.143"
-    port: 443
-    uuid: "e35a5ad5-0175-4cd6-b654-1eb220ff28f0"
-    network: "ws"
-    sni: "infra-services-c8-2.21491204-f13b-4977-9cc9-5275edd68fd8.kdns.fr"
-    udp: true
-
-  - name: "香港 阿里云"
-    type: "vmess"
-    server: "u2frxj0g13vdi0wo.v.3dns.vip"
-    port: 443
-    cipher: "auto"
-    uuid: "f23bb427c1f94373876c2f43e9f790f3"
-    alterId: 0
-    network: "ws"
-
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "199.232.78.159"
-    port: 443
-    uuid: "6e2e03e2-4f66-479a-a186-a34d66ca8c91"
-    network: "ws"
-    sni: "ssl.fastly.com"
-    udp: true
-
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-    type: "vless"
-    server: "ruded1.onlinestreamself.com"
-    port: 443
-    uuid: "35699c54-9188-4f43-972e-e8e42dbb104e"
-    network: "tcp"
-    sni: "apple.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "152.53.239.182"
-    port: 443
-    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
-    network: "tcp"
-    sni: "www.cloudflare.com"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
@@ -220,13 +165,67 @@ proxies:
     sni: "www.cloudflare.com"
     udp: true
 
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "94.139.251.189"
+    server: "172.67.169.143"
     port: 443
-    uuid: "64b6f905-94d5-4745-8f92-cafa107b7c16"
+    uuid: "e35a5ad5-0175-4cd6-b654-1eb220ff28f0"
+    network: "ws"
+    sni: "infra-services-c8-2.21491204-f13b-4977-9cc9-5275edd68fd8.kdns.fr"
+    udp: true
+
+  - name: "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
+    type: "vless"
+    server: "88.218.44.4"
+    port: 993
+    uuid: "7c74b0e4-f132-5583-4692-622a7d6b71a4"
     network: "tcp"
-    sni: "apple.com"
+    sni: "dl.google.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "172.64.156.0"
+    port: 443
+    uuid: "29ca503d-e6b8-4509-b666-48133f450857"
+    network: "ws"
+    sni: "learn00.evany.de5.net"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "deepl.com"
+    port: 8880
+    uuid: "878dd962-027b-4bd3-a1f8-66be68a03c4d"
+    network: "ws"
+    sni: "deepl.com"
+    udp: true
+
+  - name: "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
+    type: "vless"
+    server: "62.238.51.180"
+    port: 1234
+    uuid: "8b0c48db-c228-47d9-b634-6ea6edf81e22"
+    network: "tcp"
+    sni: "62.238.51.180"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "198.41.209.80"
+    port: 443
+    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
+    network: "ws"
+    sni: "support.zoom.us.yxls.eu.cc"
+    udp: true
+
+  - name: "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
+    type: "vless"
+    server: "154.193.55.183"
+    port: 443
+    uuid: "11e57eeb-ffdf-4983-a9fa-ad352dea7253"
+    network: "tcp"
+    sni: "storage.yandex.net"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0120"
@@ -1141,16 +1140,16 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-      - "伊朗 V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "香港 阿里云"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0120"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-108.181.118.10-0126"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0140"
@@ -1174,16 +1173,16 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-      - "伊朗 V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "香港 阿里云"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0120"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-108.181.118.10-0126"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0140"
