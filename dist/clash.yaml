@@ -131,20 +131,21 @@ proxies:
     network: "ws"
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "trojan"
-    server: "149.104.104.58"
-    port: 443
-    password: "S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix"
-    sni: ""
+    type: "vless"
+    server: "170.168.97.3"
+    port: 993
+    uuid: "e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d"
+    network: "tcp"
+    sni: "download.nvidia.com"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+%E7%A7%91%E7%BD%97%E6%8B%89%E5%A4%9A%E5%B7%9E%E5%B8%83%E9%9A%86%E8%8F%B2%E5%B0%94%E5%BE%B7%E5%B8%82Level+3%E9%80%9A%E4%BF%A1%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "d.mygoldiran.com"
+    server: "time.is"
     port: 443
-    uuid: "76792e97-ee95-4d29-86da-347362d491f2"
+    uuid: "d0298536-d670-4045-bbb1-ddd5ea68683e"
     network: "ws"
-    sni: "usa_multi.mygoldiran.com"
+    sni: "azadnet-826.pages.Dev"
     udp: true
 
   - name: "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
@@ -156,51 +157,6 @@ proxies:
     sni: "ddc-akn.astralweb.tech"
     udp: true
 
-  - name: "美国 佐治亚州亚特兰大市BellSouth公司"
-    type: "vmess"
-    server: "cindy50.ceoiii.com"
-    port: 36801
-    cipher: "auto"
-    uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
-    alterId: 0
-    network: "ws"
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "104.18.42.68"
-    port: 8443
-    uuid: "29ca503d-e6b8-4509-b666-48133f450857"
-    network: "ws"
-    sni: "learn00.evany.de5.net"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "144.31.91.102"
-    port: 443
-    uuid: "6a248b82-ad33-4a8f-8ef7-cdd0ac26c261"
-    network: "tcp"
-    sni: "nl.boxypn.com"
-    udp: true
-
-  - name: "%E7%91%9E%E5%85%B8+V2CROSS.COM"
-    type: "vless"
-    server: "teain.org"
-    port: 1000
-    uuid: "6f436a44-f703-93da-7e45-615824a39d3b"
-    network: "tcp"
-    sni: "knox.cdn-apple.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "104.26.9.48"
-    port: 443
-    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
-    network: "ws"
-    sni: "support.zoom.us.yxls.eu.cc"
-    udp: true
-
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
     server: "104.25.244.217"
@@ -210,22 +166,58 @@ proxies:
     sni: "support.zoom.us.yxls.eu.cc"
     udp: true
 
+  - name: "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
+    type: "vless"
+    server: "45.196.201.181"
+    port: 443
+    uuid: "f75814f6-8f81-4847-b792-168c41f2dc85"
+    network: "tcp"
+    sni: "storage.yandex.net"
+    udp: true
+
+  - name: "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
+    type: "vless"
+    server: "88.218.44.4"
+    port: 993
+    uuid: "7c74b0e4-f132-5583-4692-622a7d6b71a4"
+    network: "tcp"
+    sni: "download.nvidia.com"
+    udp: true
+
   - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
     type: "vless"
     server: "31.76.11.46.cdn-one.org"
     port: 443
-    uuid: "2a6b708e-6799-473e-85e9-d4b116c5eedc"
+    uuid: "4f375fb4-3c95-425f-bc7b-8085487a6f3c"
     network: "ws"
     sni: "31.76.11.46.cdn-one.org"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "152.53.239.182"
+    server: "104.26.12.41"
     port: 443
-    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
-    network: "tcp"
-    sni: "www.cloudflare.com"
+    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
+    network: "ws"
+    sni: "support.zoom.us.yxls.eu.cc"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "162.159.7.178"
+    port: 443
+    uuid: "29ca503d-e6b8-4509-b666-48133f450857"
+    network: "ws"
+    sni: "learn00.evany.de5.net"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "104.16.72.251"
+    port: 443
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    network: "ws"
+    sni: "hhlfy.twiladaphne.ndjp.net"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0069"
@@ -1131,6 +1123,13 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "G!yBwPWH3Vao"
 
+  - name: "%F0%9F%87%AB%F0%9F%87%B7FR-51.38.118.42-0030"
+    type: "ss"
+    server: "51.38.118.42"
+    port: 811
+    cipher: "chacha20-ietf-poly1305"
+    password: "Ultr@r00t_2017"
+
 proxy-groups:
   - name: Proxy
     type: select
@@ -1152,20 +1151,20 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+%E7%A7%91%E7%BD%97%E6%8B%89%E5%A4%9A%E5%B7%9E%E5%B8%83%E9%9A%86%E8%8F%B2%E5%B0%94%E5%BE%B7%E5%B8%82Level+3%E9%80%9A%E4%BF%A1%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
-      - "美国 佐治亚州亚特兰大市BellSouth公司"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%91%9E%E5%85%B8+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
+      - "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
       - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0069"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0068"
       - "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0065"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-108.181.118.10-0066"
+      - "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0067"
   - name: Auto
     type: url-test
     proxies:
@@ -1185,20 +1184,20 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+%E7%A7%91%E7%BD%97%E6%8B%89%E5%A4%9A%E5%B7%9E%E5%B8%83%E9%9A%86%E8%8F%B2%E5%B0%94%E5%BE%B7%E5%B8%82Level+3%E9%80%9A%E4%BF%A1%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
-      - "美国 佐治亚州亚特兰大市BellSouth公司"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%91%9E%E5%85%B8+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
+      - "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
       - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0069"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0068"
       - "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0065"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-108.181.118.10-0066"
+      - "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0067"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
