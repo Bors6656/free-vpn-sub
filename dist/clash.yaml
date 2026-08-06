@@ -130,93 +130,48 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "31.76.11.46.cdn-one.org"
+    server: "152.53.127.214"
     port: 443
-    uuid: "4f375fb4-3c95-425f-bc7b-8085487a6f3c"
-    network: "ws"
-    sni: "31.76.11.46.cdn-one.org"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "104.26.3.138"
-    port: 443
-    uuid: "506e4a91-1d05-5683-b84c-2113f673cb19"
-    network: "ws"
-    sni: "vltj.qzz.io"
-    udp: true
-
-  - name: "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
-    type: "vless"
-    server: "185.148.106.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    network: "ws"
-    sni: "185.148.106.30"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "yd.mmhh.eu.cc"
-    port: 443
-    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
-    network: "ws"
-    sni: "hhlfy.twiladaphne.ndjp.net"
-    udp: true
-
-  - name: "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-    type: "trojan"
-    server: "hkdcrtc-e.catcat321.com"
-    port: 20129
-    password: "41c406e2-12b5-41f2-a329-d0621052d675"
-    sni: "hk.catxstar.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "104.25.244.217"
-    port: 443
-    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
-    network: "ws"
-    sni: "support.zoom.us.yxls.eu.cc"
-    udp: true
-
-  - name: "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
-    type: "vless"
-    server: "88.218.44.4"
-    port: 993
-    uuid: "7c74b0e4-f132-5583-4692-622a7d6b71a4"
+    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
     network: "tcp"
-    sni: "download.nvidia.com"
+    sni: "www.cloudflare.com"
     udp: true
-
-  - name: "美国 V2CROSS.COM"
-    type: "vmess"
-    server: "cindy50.ceoiii.com"
-    port: 36801
-    cipher: "auto"
-    uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
-    alterId: 0
-    network: "ws"
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "45.130.125.207"
+    server: "152.53.236.22"
     port: 443
-    uuid: "b2f6aa3a-2550-4a1c-b2c0-1c94b1207217"
-    network: "ws"
-    sni: "terazhediii.info"
+    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
+    network: "tcp"
+    sni: "www.cloudflare.com"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "172.64.146.86"
-    port: 443
-    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
+    server: "172.64.145.166"
+    port: 2087
+    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
     network: "ws"
-    sni: "support.zoom.us.yxls.eu.cc"
+    sni: "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.17.111.8"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "198.41.208.252"
+    port: 8880
+    uuid: "9e648bb6-25f7-4b16-9949-55ac0952d66b"
+    network: "ws"
+    sni: "198.41.208.252"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
@@ -228,38 +183,76 @@ proxies:
     sni: "www.cloudflare.com"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "140.248.186.45"
-    port: 443
-    uuid: "XpnTeam-6"
+    server: "104.18.42.163"
+    port: 2095
+    uuid: "86c50e3a-5b87-49dd-bd20-03c7f2735e40"
     network: "ws"
-    sni: "ssl.fastly.com"
+    sni: "104.18.42.163"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "codecanyon.net"
+    server: "104.21.36.164"
+    port: 2053
+    uuid: "42f3c6bc-fdc3-4d4e-b95d-f84f9e6bf27f"
+    network: "ws"
+    sni: "ger-full.deepinsane.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "cf4.466688.xyz"
     port: 8880
-    uuid: "78b73cc4-8c3c-40ce-bb74-d5dcd3277c67"
+    uuid: "c6c5ad2f-b4d5-450f-862f-341cebb7f9b5"
     network: "ws"
-    sni: "codecanyon.net"
-    udp: true
-
-  - name: "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-    type: "trojan"
-    server: "oplosgru-c.catcat321.com"
-    port: 20034
-    password: "41c406e2-12b5-41f2-a329-d0621052d675"
-    sni: "hk.catxstar.com"
+    sni: "cf4.466688.xyz"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.16.174.121"
+    type: "vless"
+    server: "104.21.77.94"
     port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
+    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
+    network: "ws"
+    sni: "support.zoom.us.yxls.eu.cc"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "104.21.4.10"
+    port: 2086
+    uuid: "9ef1d60d-9e38-49c5-9405-131e11be1f9c"
+    network: "ws"
+    sni: "104.21.4.10"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "paul.ns.cloudflare.com"
+    port: 443
+    uuid: "f028a8c0-6763-4558-aee3-2563db9d7825"
+    network: "ws"
+    sni: "ziro.skin"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "172.64.146.86"
+    port: 443
+    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
+    network: "ws"
+    sni: "support.zoom.us.yxls.eu.cc"
+    udp: true
+
+  - name: "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
+    type: "vless"
+    server: "167.17.68.205"
+    port: 443
+    uuid: "4e0f4e59-3613-4f0c-b824-7348413d20e6"
+    network: "tcp"
+    sni: "www.cloudflare.com"
     udp: true
 
   - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.147-0104"
@@ -1165,6 +1158,13 @@ proxies:
     alterId: 0
     network: "ws"
 
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.219-0176"
+    type: "ss"
+    server: "82.38.31.219"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
 proxy-groups:
   - name: Proxy
     type: select
@@ -1185,21 +1185,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
-      - "美国 V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
+      - "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.147-0104"
   - name: Auto
     type: url-test
     proxies:
@@ -1218,21 +1218,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
-      - "美国 V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
+      - "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.147-0104"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
