@@ -130,42 +130,6 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
-    type: "vless"
-    server: "jyvlryz.cvewfjg.shop"
-    port: 443
-    uuid: "4e0f4e59-3613-4f0c-b824-7348413d20e6"
-    network: "tcp"
-    sni: "www.cloudflare.com"
-    udp: true
-
-  - name: "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
-    type: "vless"
-    server: "88.218.44.4"
-    port: 993
-    uuid: "7c74b0e4-f132-5583-4692-622a7d6b71a4"
-    network: "tcp"
-    sni: "download.nvidia.com"
-    udp: true
-
-  - name: "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
-    type: "vless"
-    server: "94.102.51.218"
-    port: 443
-    uuid: "c28ee61d-0d43-4e69-8e6a-6397ed0ffc03"
-    network: "tcp"
-    sni: "fair-lunar.cdn.cachefleet.com"
-    udp: true
-
-  - name: "台湾省 中华电信(HiNet)数据中心"
-    type: "vmess"
-    server: "lt.badns.help"
-    port: 51360
-    cipher: "auto"
-    uuid: "85ad21e1-c2cd-3407-aa90-815f3f3ea636"
-    alterId: 0
-    network: "tcp"
-
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
     server: "www.glassdoor.com"
@@ -182,6 +146,77 @@ proxies:
     uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
     network: "tcp"
     sni: "www.cloudflare.com"
+    udp: true
+
+  - name: "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
+    type: "vless"
+    server: "94.102.51.218"
+    port: 443
+    uuid: "c28ee61d-0d43-4e69-8e6a-6397ed0ffc03"
+    network: "tcp"
+    sni: "fair-lunar.cdn.cachefleet.com"
+    udp: true
+
+  - name: "新加坡 腾讯云"
+    type: "vmess"
+    server: "cindy51.ceoiii.com"
+    port: 36802
+    cipher: "auto"
+    uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
+    alterId: 0
+    network: "ws"
+
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "jdwadgw.cvewfjg.shop"
+    port: 443
+    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
+    network: "tcp"
+    sni: "www.cloudflare.com"
+    udp: true
+
+  - name: "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
+    type: "vless"
+    server: "31.43.191.39"
+    port: 443
+    uuid: "c28ee61d-0d43-4e69-8e6a-6397ed0ffc03"
+    network: "tcp"
+    sni: "luminous-vortex.cdn.cachefleet.com"
+    udp: true
+
+  - name: "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
+    type: "trojan"
+    server: "oplosgru-c.catcat321.com"
+    port: 20004
+    password: "ba07a8af-5544-48ac-ab62-3b6c00a44fa6"
+    sni: "hk.catxstar.com"
+    udp: true
+
+  - name: "美国 Microsoft数据中心"
+    type: "vmess"
+    server: "cindy52.ceoiii.com"
+    port: 36803
+    cipher: "auto"
+    uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
+    alterId: 0
+    network: "ws"
+
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "45.143.201.8"
+    port: 443
+    uuid: "c28ee61d-0d43-4e69-8e6a-6397ed0ffc03"
+    network: "tcp"
+    sni: "hasty-dolphin.cdn.cachefleet.com"
+    udp: true
+
+  - name: "%E5%BE%B7%E5%9B%BD+GHOSTnet+GmbH"
+    type: "vless"
+    server: "94.249.225.80"
+    port: 443
+    uuid: "c28ee61d-0d43-4e69-8e6a-6397ed0ffc03"
+    network: "tcp"
+    sni: "warm-gazelle.cdn.cachefleet.com"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0144"
@@ -1128,38 +1163,6 @@ proxies:
     sni: "distinct-llama.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.201.46.108-0194"
-    type: "trojan"
-    server: "exotic-chow.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "exotic-chow.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-13.125.239.182-0186"
-    type: "trojan"
-    server: "saving-octopus.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "saving-octopus.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.202.56.122-0521"
-    type: "trojan"
-    server: "43.202.56.122"
-    port: 443
-    password: "ND91608427"
-    sni: "striking-maggot.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-52.79.210.229-0504"
-    type: "trojan"
-    server: "chief-bluegill.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "chief-bluegill.rooster465.autos"
-    udp: true
-
 proxy-groups:
   - name: Proxy
     type: select
@@ -1180,21 +1183,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
-      - "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
-      - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
-      - "台湾省 中华电信(HiNet)数据中心"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
+      - "新加坡 腾讯云"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
+      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
+      - "美国 Microsoft数据中心"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E5%BE%B7%E5%9B%BD+GHOSTnet+GmbH"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0144"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0117"
       - "%F0%9F%87%BA%F0%9F%87%B8US-54.163.196.142-6207"
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.57-0100"
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.16-0099"
-      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.210-0107"
-      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.149-0089"
-      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.191-0110"
-      - "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.204-0088"
   - name: Auto
     type: url-test
     proxies:
@@ -1213,21 +1216,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
-      - "%E5%B8%8C%E8%85%8A+V2CROSS.COM"
-      - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
-      - "台湾省 中华电信(HiNet)数据中心"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
+      - "新加坡 腾讯云"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
+      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
+      - "美国 Microsoft数据中心"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E5%BE%B7%E5%9B%BD+GHOSTnet+GmbH"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0144"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0117"
       - "%F0%9F%87%BA%F0%9F%87%B8US-54.163.196.142-6207"
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.57-0100"
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.16-0099"
-      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.210-0107"
-      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.149-0089"
-      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.191-0110"
-      - "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.204-0088"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
