@@ -130,29 +130,40 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-    type: "trojan"
-    server: "oplosgru-c.catcat321.com"
-    port: 20004
-    password: "ba07a8af-5544-48ac-ab62-3b6c00a44fa6"
-    sni: "hk.catxstar.com"
-    udp: true
-
-  - name: "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-    type: "trojan"
-    server: "oplosgru-c.catcat321.com"
-    port: 20088
-    password: "41c406e2-12b5-41f2-a329-d0621052d675"
-    sni: "hk.catxstar.com"
-    udp: true
-
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+  - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "185.232.117.114"
+    server: "31.76.251.127.cdn-one.org"
     port: 443
-    uuid: "c04bf2df-2b7f-44da-a893-3792d3910fd8"
+    uuid: "4f375fb4-3c95-425f-bc7b-8085487a6f3c"
+    network: "ws"
+    sni: "31.76.251.127.cdn-one.org"
+    udp: true
+
+  - name: "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
+    type: "vless"
+    server: "45.196.201.159"
+    port: 443
+    uuid: "f75814f6-8f81-4847-b792-168c41f2dc85"
     network: "tcp"
-    sni: "vl04.skorostnet.space"
+    sni: "storage.yandex.net"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "45.155.52.231"
+    port: 443
+    uuid: "219f9fec-8983-4f6f-af8c-31bd0c6dbf19"
+    network: "tcp"
+    sni: "ru2.skydrgn-online.online"
+    udp: true
+
+  - name: "%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A+V2CROSS.COM"
+    type: "vless"
+    server: "185.246.223.158"
+    port: 443
+    uuid: "dd8b69d3-5ef6-418c-a94c-2f4f37d88a7f"
+    network: "tcp"
+    sni: "germanag.online"
     udp: true
 
   - name: "%E5%BE%B7%E5%9B%BD+V2CROSS.COM"
@@ -164,76 +175,37 @@ proxies:
     sni: "www.cloudflare.com"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
     type: "vless"
-    server: "time.is"
+    server: "185.232.117.114"
     port: 443
-    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
-    network: "ws"
-    sni: "support.zoom.us.yxls.eu.cc."
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "162.159.141.147"
-    port: 443
-    uuid: "d2d0f796-edb0-427a-af32-ae360679f9e7"
-    network: "ws"
-    sni: "rAyAn-007.fOtOn.dPdNs.oRg"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "jdwadgw.cvewfjg.shop"
-    port: 443
-    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
-    network: "raw"
-    sni: "www.cloudflare.com"
-    udp: true
-
-  - name: "%E5%8C%97%E7%BE%8E%E5%9C%B0%E5%8C%BA+V2CROSS.COM"
-    type: "vless"
-    server: "104.171.132.102"
-    port: 2200
-    uuid: "2001e98b-e06e-4244-910f-7ff640746eda"
-    network: "ws"
-    sni: "104.171.132.102"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "deepl.com"
-    port: 8880
-    uuid: "6d73dc1e-1627-4b16-b471-53e63aa16c78"
-    network: "ws"
-    sni: "deepl.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "jdwabxe.cvewfjg.shop"
-    port: 443
-    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
-    network: "raw"
-    sni: "www.cloudflare.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "152.53.236.22"
-    port: 443
-    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
+    uuid: "c04bf2df-2b7f-44da-a893-3792d3910fd8"
     network: "tcp"
-    sni: "www.cloudflare.com"
+    sni: "vl04.skorostnet.space"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "162.159.152.129"
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "trojan"
+    server: "149.104.104.58"
     port: 443
-    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
-    network: "ws"
-    sni: "support.zoom.us.yxls.eu.cc"
+    password: "S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix"
+    sni: "149.104.104.58"
+    udp: true
+
+  - name: "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
+    type: "trojan"
+    server: "oplosgru-c.catcat321.com"
+    port: 20088
+    password: "41c406e2-12b5-41f2-a329-d0621052d675"
+    sni: "hk.catxstar.com"
+    udp: true
+
+  - name: "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
+    type: "trojan"
+    server: "hkdcrtc-e.catcat321.com"
+    port: 20129
+    password: "41c406e2-12b5-41f2-a329-d0621052d675"
+    sni: "hk.catxstar.com"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0144"
@@ -1164,6 +1136,30 @@ proxies:
     sni: "communal-sunbird.rooster465.autos"
     udp: true
 
+  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-3.36.59.34-0187"
+    type: "trojan"
+    server: "select-ferret.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "select-ferret.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.201.56.44-0185"
+    type: "trojan"
+    server: "distinct-llama.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "distinct-llama.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.201.46.108-0194"
+    type: "trojan"
+    server: "exotic-chow.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "exotic-chow.rooster465.autos"
+    udp: true
+
 proxy-groups:
   - name: Proxy
     type: select
@@ -1184,21 +1180,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+      - "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A+V2CROSS.COM"
       - "%E5%BE%B7%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E5%8C%97%E7%BE%8E%E5%9C%B0%E5%8C%BA+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
+      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0144"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0117"
       - "%F0%9F%87%BA%F0%9F%87%B8US-54.163.196.142-6207"
+      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.57-0100"
+      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.16-0099"
+      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.210-0107"
   - name: Auto
     type: url-test
     proxies:
@@ -1217,21 +1213,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+      - "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A+V2CROSS.COM"
       - "%E5%BE%B7%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E5%8C%97%E7%BE%8E%E5%9C%B0%E5%8C%BA+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
+      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0144"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0117"
       - "%F0%9F%87%BA%F0%9F%87%B8US-54.163.196.142-6207"
+      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.57-0100"
+      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.16-0099"
+      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.210-0107"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
