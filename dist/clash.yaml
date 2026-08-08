@@ -130,23 +130,23 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E7%BE%8E%E5%9B%BD+%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2"
+  - name: "%E8%8A%AC%E5%85%B0+V2CROSS.COM"
     type: "vless"
-    server: "www.true.th"
+    server: "s1243.gogocs.xyz"
     port: 443
-    uuid: "7ce54bb3-d612-4aa7-be08-089d3c461d53"
-    network: "ws"
-    sni: "d1yxsk0zprgivr.cloudfront.net"
+    uuid: "5d02517f-63d5-3e9f-b467-1bcf4d4e25d3"
+    network: "tcp"
+    sni: "u695099ubfb7b8f7s861.gogocs.xyz"
     udp: true
 
-  - name: "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
-    type: "vless"
-    server: "45.192.200.66"
-    port: 8443
-    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
+  - name: "荷兰 V2CROSS.COM"
+    type: "vmess"
+    server: "185.246.152.159"
+    port: 443
+    cipher: "auto"
+    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
+    alterId: 0
     network: "ws"
-    sni: "rubifen.adaspoloandco.com"
-    udp: true
 
   - name: "%E9%A6%99%E6%B8%AF+Simcentric%E7%BD%91%E7%BB%9C%E5%85%AC%E5%8F%B8"
     type: "vless"
@@ -157,22 +157,13 @@ proxies:
     sni: "180.178.60.253"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+  - name: "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
     type: "vless"
-    server: "152.53.239.182"
-    port: 443
-    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
-    network: "raw"
-    sni: "www.cloudflare.com"
-    udp: true
-
-  - name: "%E8%8A%AC%E5%85%B0+V2CROSS.COM"
-    type: "vless"
-    server: "s1243.gogocs.xyz"
-    port: 443
-    uuid: "5d02517f-63d5-3e9f-b467-1bcf4d4e25d3"
+    server: "78.17.154.129"
+    port: 13868
+    uuid: "06d44c57-8e1a-41f4-b9c4-65d35869e078"
     network: "tcp"
-    sni: "u695099ubfb7b8f7s861.gogocs.xyz"
+    sni: "wp.pl"
     udp: true
 
   - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
@@ -1160,6 +1151,14 @@ proxies:
     sni: "exotic-chow.rooster465.autos"
     udp: true
 
+  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-13.125.239.182-0162"
+    type: "trojan"
+    server: "saving-octopus.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "saving-octopus.rooster465.autos"
+    udp: true
+
 proxy-groups:
   - name: Proxy
     type: select
@@ -1180,11 +1179,10 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E7%BE%8E%E5%9B%BD+%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2"
-      - "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
-      - "%E9%A6%99%E6%B8%AF+Simcentric%E7%BD%91%E7%BB%9C%E5%85%AC%E5%8F%B8"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E8%8A%AC%E5%85%B0+V2CROSS.COM"
+      - "荷兰 V2CROSS.COM"
+      - "%E9%A6%99%E6%B8%AF+Simcentric%E7%BD%91%E7%BB%9C%E5%85%AC%E5%8F%B8"
+      - "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
       - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0099"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0063"
@@ -1195,6 +1193,7 @@ proxy-groups:
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.217-0065"
       - "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.223-0096"
       - "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.168-0097"
+      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.57-0066"
   - name: Auto
     type: url-test
     proxies:
@@ -1213,11 +1212,10 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E7%BE%8E%E5%9B%BD+%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2"
-      - "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
-      - "%E9%A6%99%E6%B8%AF+Simcentric%E7%BD%91%E7%BB%9C%E5%85%AC%E5%8F%B8"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E8%8A%AC%E5%85%B0+V2CROSS.COM"
+      - "荷兰 V2CROSS.COM"
+      - "%E9%A6%99%E6%B8%AF+Simcentric%E7%BD%91%E7%BB%9C%E5%85%AC%E5%8F%B8"
+      - "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
       - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0099"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0063"
@@ -1228,6 +1226,7 @@ proxy-groups:
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.217-0065"
       - "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.223-0096"
       - "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.168-0097"
+      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.57-0066"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
