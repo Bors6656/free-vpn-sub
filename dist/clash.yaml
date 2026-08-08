@@ -130,30 +130,21 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-    type: "trojan"
-    server: "oplosgru-c.catcat321.com"
-    port: 20088
-    password: "41c406e2-12b5-41f2-a329-d0621052d675"
-    sni: "hk.catxstar.com"
-    udp: true
-
-  - name: "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
+  - name: "%E9%A6%99%E6%B8%AF+%E9%98%BF%E9%87%8C%E4%BA%91"
     type: "vless"
-    server: "78.17.154.129"
-    port: 13868
-    uuid: "06d44c57-8e1a-41f4-b9c4-65d35869e078"
+    server: "47.82.120.47"
+    port: 43630
+    uuid: "01a95af3-a2f6-453e-9f88-b2fc011627cc"
     network: "tcp"
-    sni: "wp.pl"
+    sni: "47.82.120.47"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "jdwadgw.cvewfjg.shop"
+    type: "trojan"
+    server: "149.104.104.58"
     port: 443
-    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
-    network: "raw"
-    sni: "www.cloudflare.com"
+    password: "S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix"
+    sni: ""
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
@@ -164,13 +155,31 @@ proxies:
     sni: "yks-dd9.pages.dev"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+  - name: "美国 Microsoft数据中心"
+    type: "vmess"
+    server: "cindy52.ceoiii.com"
+    port: 36803
+    cipher: "auto"
+    uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
+    alterId: 0
+    network: "ws"
+
+  - name: "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
     type: "vless"
-    server: "152.53.236.22"
+    server: "78.17.154.129"
+    port: 13868
+    uuid: "06d44c57-8e1a-41f4-b9c4-65d35869e078"
+    network: "tcp"
+    sni: "wp.pl"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2"
+    type: "vless"
+    server: "18.239.83.52"
     port: 443
-    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
-    network: "raw"
-    sni: "www.cloudflare.com"
+    uuid: "7ce54bb3-d612-4aa7-be08-089d3c461d53"
+    network: "ws"
+    sni: "d1yxsk0zprgivr.cloudfront.net"
     udp: true
 
   - name: "%E9%A6%99%E6%B8%AF+Simcentric%E7%BD%91%E7%BB%9C%E5%85%AC%E5%8F%B8"
@@ -185,27 +194,9 @@ proxies:
   - name: "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
     type: "trojan"
     server: "oplosgru-c.catcat321.com"
-    port: 20004
-    password: "ba07a8af-5544-48ac-ab62-3b6c00a44fa6"
+    port: 20088
+    password: "41c406e2-12b5-41f2-a329-d0621052d675"
     sni: "hk.catxstar.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "jdvymxi.cvewfjg.shop"
-    port: 443
-    uuid: "711c018e-2692-4aa8-93f3-544d83fcd16c"
-    network: "raw"
-    sni: "www.cloudflare.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-    type: "vless"
-    server: "www.true.th"
-    port: 443
-    uuid: "7ce54bb3-d612-4aa7-be08-089d3c461d53"
-    network: "ws"
-    sni: "d1yxsk0zprgivr.cloudfront.net"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0099"
@@ -1160,6 +1151,14 @@ proxies:
     sni: "moved-meerkat.rooster465.autos"
     udp: true
 
+  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-3.36.131.218-0167"
+    type: "trojan"
+    server: "humorous-malamute.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "humorous-malamute.rooster465.autos"
+    udp: true
+
 proxy-groups:
   - name: Proxy
     type: select
@@ -1180,21 +1179,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-      - "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
+      - "%E9%A6%99%E6%B8%AF+%E9%98%BF%E9%87%8C%E4%BA%91"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "美国 Microsoft数据中心"
+      - "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2"
       - "%E9%A6%99%E6%B8%AF+Simcentric%E7%BD%91%E7%BB%9C%E5%85%AC%E5%8F%B8"
       - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0099"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0063"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0059"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0062"
       - "%F0%9F%87%BA%F0%9F%87%B8US-100.31.139.112-0397"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-137.184.174.93-0257"
+      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.217-0065"
   - name: Auto
     type: url-test
     proxies:
@@ -1213,21 +1212,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-      - "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
+      - "%E9%A6%99%E6%B8%AF+%E9%98%BF%E9%87%8C%E4%BA%91"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "美国 Microsoft数据中心"
+      - "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2"
       - "%E9%A6%99%E6%B8%AF+Simcentric%E7%BD%91%E7%BB%9C%E5%85%AC%E5%8F%B8"
       - "%E8%8B%B1%E5%9B%BD+Technicolor+SA"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0099"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0063"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0059"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0062"
       - "%F0%9F%87%BA%F0%9F%87%B8US-100.31.139.112-0397"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-137.184.174.93-0257"
+      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.217-0065"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
