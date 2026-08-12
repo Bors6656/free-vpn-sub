@@ -130,15 +130,6 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
-    type: "vless"
-    server: "151.241.129.98"
-    port: 7219
-    uuid: "03f3932c-5680-44f6-84f1-447d86971aeb"
-    network: "ws"
-    sni: "9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev"
-    udp: true
-
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
     server: "104.18.152.108"
@@ -147,33 +138,9 @@ proxies:
     sni: "www.ignitelimit.com"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+  - name: "%E5%B7%B4%E8%A5%BF%E5%9C%A3%E4%BF%9D%E7%BD%97+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "join-telegram-channel.tirexnet.kdns.fr"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.26.14.137"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.16.174.36"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.18.152.144"
+    server: "188.114.97.7"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
@@ -188,70 +155,16 @@ proxies:
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+%E4%B9%94%E6%B2%BB%E4%BA%9A%E6%B4%B2%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7Fastly%E8%8A%82%E7%82%B9"
-    type: "vless"
+    type: "trojan"
     server: "151.101.56.7"
     port: 443
-    uuid: "255f9bd5-670f-4b34-9429-9e4388594160"
-    network: "ws"
-    sni: "ssl.fastly.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "104.16.100.215"
-    port: 8880
-    uuid: "f7ed4770-81f4-47a1-9490-8b8cd684c97e"
-    network: "ws"
-    sni: "104.16.100.215"
+    password: "MiTiVPN"
+    sni: "default.fastly.com"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "104.18.152.219"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "cf3.466688.xyz"
-    port: 8880
-    uuid: "00ff7e5f-9b6f-4401-aab9-4d044660411f"
-    network: "ws"
-    sni: "cf3.466688.xyz"
-    udp: true
-
-  - name: "台湾省 中华电信(HiNet)数据中心"
-    type: "vmess"
-    server: "lt.badns.help"
-    port: 51360
-    cipher: "auto"
-    uuid: "85ad21e1-c2cd-3407-aa90-815f3f3ea636"
-    alterId: 0
-    network: "tcp"
-
-  - name: "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
-    type: "vless"
-    server: "78.17.240.147"
-    port: 13868
-    uuid: "06d44c57-8e1a-41f4-b9c4-65d35869e078"
-    network: "tcp"
-    sni: "www.epicgames.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "104.16.158.249"
-    port: 443
-    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
-    network: "ws"
-    sni: "hhlfy.twiladaphne.ndjp.net"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.18.152.113"
+    server: "172.67.221.242"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
@@ -259,24 +172,31 @@ proxies:
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "104.17.111.3"
+    server: "104.18.23.63"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "104.20.6.134"
+    type: "trojan"
+    server: "104.16.174.71"
     port: 443
-    uuid: "2088ef0d-4d2c-43b3-874b-b6a03531c81b"
-    network: "ws"
-    sni: "r.meDiASHOPPp.sbS"
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E9%A6%99%E6%B8%AF+%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E5%9B%BD%E9%99%85%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+    type: "trojan"
+    server: "xiweini.dpdns.org"
+    port: 30101
+    password: "t3re5bgbot4z4z3t"
+    sni: "xiweini.dpdns.org"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "104.16.174.34"
+    server: "172.67.149.60"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
@@ -284,156 +204,96 @@ proxies:
 
   - name: "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
     type: "vless"
-    server: "78.17.4.20"
+    server: "78.17.112.103"
     port: 13868
     uuid: "06d44c57-8e1a-41f4-b9c4-65d35869e078"
     network: "tcp"
     sni: "www.epicgames.com"
     udp: true
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0171"
-    type: "ss"
-    server: "173.244.56.6"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0168"
-    type: "ss"
-    server: "173.244.56.9"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-35.86.90.51-0184"
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "trojan"
-    server: "35.86.90.51"
+    server: "165.215.250.14"
     port: 443
-    password: "ND91608427"
-    sni: "natural-collie.rooster465.autos"
+    password: "humanity"
+    sni: "www.ignitelimit.com"
     udp: true
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-44.242.235.129-0176"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "devoted-tapir.rooster465.autos"
+    server: "104.18.152.233"
     port: 443
-    password: "ND91608427"
-    sni: "devoted-tapir.rooster465.autos"
+    password: "humanity"
+    sni: "www.ignitelimit.com"
     udp: true
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-44.246.163.102-0181"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "fleet-bonefish.rooster465.autos"
+    server: "104.16.73.213"
     port: 443
-    password: "ND91608427"
-    sni: "fleet-bonefish.rooster465.autos"
+    password: "humanity"
+    sni: "www.ignitelimit.com"
     udp: true
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-44.246.163.102-0177"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "44.246.163.102"
+    server: "104.26.15.137"
     port: 443
-    password: "ND91608427"
-    sni: "fleet-bonefish.rooster465.autos"
+    password: "humanity"
+    sni: "www.ignitelimit.com"
     udp: true
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-44.244.3.114-0182"
-    type: "trojan"
-    server: "44.244.3.114"
-    port: 443
-    password: "ND91608427"
-    sni: "pet-ghost.rooster465.autos"
+  - name: "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
+    type: "vless"
+    server: "78.17.158.16"
+    port: 13868
+    uuid: "06d44c57-8e1a-41f4-b9c4-65d35869e078"
+    network: "tcp"
+    sni: "www.ea.com"
     udp: true
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-44.242.235.129-0179"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "44.242.235.129"
+    server: "198.41.223.96"
     port: 443
-    password: "ND91608427"
-    sni: "devoted-tapir.rooster465.autos"
+    password: "humanity"
+    sni: "www.ignitelimit.com"
     udp: true
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.216-0138"
+  - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
     type: "ss"
-    server: "82.38.31.216"
-    port: 8080
+    server: "autodiscover.fuzzyaytor.cyou"
+    port: 42982
     cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    password: "yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.34-0154"
-    type: "ss"
-    server: "82.38.31.34"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-44.244.3.114-0178"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "pet-ghost.rooster465.autos"
+    server: "104.18.152.144"
     port: 443
-    password: "ND91608427"
-    sni: "pet-ghost.rooster465.autos"
+    password: "humanity"
+    sni: "www.ignitelimit.com"
     udp: true
 
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.147-0136"
-    type: "ss"
-    server: "193.29.139.147"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "172.66.0.216"
+    port: 2096
+    uuid: "a21b9103-1693-49c1-8dc9-e8e8098ee969"
+    network: "ws"
+    sni: "free-7f1.pages.dev"
+    udp: true
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.189-0126"
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-198.98.53.130-0294"
     type: "ss"
-    server: "82.38.31.189"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.192-0144"
-    type: "ss"
-    server: "82.38.31.192"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.202-0145"
-    type: "ss"
-    server: "82.38.31.202"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.174-0161"
-    type: "ss"
-    server: "82.38.31.174"
+    server: "198.98.53.130"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    password: "eDfN7SODQceIOmIAbtJJtK"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.35-0140"
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0167"
     type: "ss"
-    server: "82.38.31.35"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0159"
-    type: "ss"
-    server: "37.19.198.244"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.214-0135"
-    type: "ss"
-    server: "82.38.31.214"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0155"
-    type: "ss"
-    server: "37.19.198.243"
+    server: "37.19.198.236"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
@@ -445,19 +305,152 @@ proxies:
     cipher: "aes-128-gcm"
     password: "shadowsocks"
 
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0167"
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.244-0159"
     type: "ss"
-    server: "37.19.198.236"
+    server: "37.19.198.244"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.36-0129"
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0155"
     type: "ss"
-    server: "82.38.31.36"
+    server: "37.19.198.243"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.217-0133"
+    type: "ss"
+    server: "82.38.31.217"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.168-0128"
+    type: "ss"
+    server: "193.29.139.168"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "QCXDxuDlTTMD7jtgHUjIoj"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.174-0158"
+    type: "ss"
+    server: "82.38.31.174"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.35-0140"
+    type: "ss"
+    server: "82.38.31.35"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.149-0156"
+    type: "ss"
+    server: "82.38.31.149"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.187-0141"
+    type: "ss"
+    server: "82.38.31.187"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.16-0127"
+    type: "ss"
+    server: "82.38.31.16"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.204-0146"
+    type: "ss"
+    server: "193.29.139.204"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.189-0126"
+    type: "ss"
+    server: "82.38.31.189"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.202-0145"
+    type: "ss"
+    server: "82.38.31.202"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.155-0123"
+    type: "ss"
+    server: "82.38.31.155"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.192-0144"
+    type: "ss"
+    server: "82.38.31.192"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.34-0154"
+    type: "ss"
+    server: "82.38.31.34"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.174-0161"
+    type: "ss"
+    server: "82.38.31.174"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.46-0124"
+    type: "ss"
+    server: "82.38.31.46"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.223-0137"
+    type: "ss"
+    server: "193.29.139.223"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.210-0152"
+    type: "ss"
+    server: "82.38.31.210"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-137.184.174.93-0122"
+    type: "ss"
+    server: "137.184.174.93"
+    port: 8080
+    cipher: "rc4-md5"
+    password: "14fFPrbezE3HDZzsMOr6"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.186-0163"
+    type: "ss"
+    server: "82.38.31.186"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
 
   - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.205-0160"
     type: "ss"
@@ -473,33 +466,61 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.174-0158"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.179-0147"
     type: "ss"
-    server: "82.38.31.174"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.155-0123"
-    type: "ss"
-    server: "82.38.31.155"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.217-0133"
-    type: "ss"
-    server: "82.38.31.217"
+    server: "82.38.31.179"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.49-0148"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.57-0151"
     type: "ss"
-    server: "82.38.31.49"
-    port: 8080
+    server: "82.38.31.57"
+    port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.191-0149"
+    type: "ss"
+    server: "82.38.31.191"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.36-0129"
+    type: "ss"
+    server: "82.38.31.36"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.216-0138"
+    type: "ss"
+    server: "82.38.31.216"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.208-0142"
+    type: "ss"
+    server: "82.38.31.208"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.147-0136"
+    type: "ss"
+    server: "193.29.139.147"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.184-0157"
+    type: "ss"
+    server: "82.38.31.184"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
 
   - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.235-0134"
     type: "ss"
@@ -508,16 +529,9 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.48-0150"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.214-0135"
     type: "ss"
-    server: "82.38.31.48"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.210-0152"
-    type: "ss"
-    server: "82.38.31.210"
+    server: "82.38.31.214"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
@@ -529,76 +543,6 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.46-0124"
-    type: "ss"
-    server: "82.38.31.46"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.179-0147"
-    type: "ss"
-    server: "82.38.31.179"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.191-0149"
-    type: "ss"
-    server: "82.38.31.191"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.149-0156"
-    type: "ss"
-    server: "82.38.31.149"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.168-0128"
-    type: "ss"
-    server: "193.29.139.168"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "QCXDxuDlTTMD7jtgHUjIoj"
-
-  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0172"
-    type: "ss"
-    server: "149.22.95.183"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.57-0151"
-    type: "ss"
-    server: "82.38.31.57"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.223-0137"
-    type: "ss"
-    server: "193.29.139.223"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.204-0146"
-    type: "ss"
-    server: "193.29.139.204"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.208-0142"
-    type: "ss"
-    server: "82.38.31.208"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
   - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.15-0139"
     type: "ss"
     server: "82.38.31.15"
@@ -606,19 +550,19 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.16-0127"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.49-0148"
     type: "ss"
-    server: "82.38.31.16"
+    server: "82.38.31.49"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-146.70.61.37-0317"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.48-0150"
     type: "ss"
-    server: "146.70.61.37"
+    server: "82.38.31.48"
     port: 8080
-    cipher: "rc4-md5"
-    password: "14fFPrbezE3HDZzsMOr6"
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
 
   - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.194-0153"
     type: "ss"
@@ -627,6 +571,41 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
 
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.167-0131"
+    type: "ss"
+    server: "156.146.38.167"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.170-0132"
+    type: "ss"
+    server: "156.146.38.170"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0162"
+    type: "ss"
+    server: "156.146.38.169"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.168-0143"
+    type: "ss"
+    server: "156.146.38.168"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-108.181.118.10-0165"
+    type: "ss"
+    server: "108.181.118.10"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "G5p6ww4o67HB"
+
   - name: "%F0%9F%87%B3%F0%9F%87%B1NL-109.201.152.181-0164"
     type: "ss"
     server: "109.201.152.181"
@@ -634,12 +613,183 @@ proxies:
     cipher: "aes-128-cfb"
     password: "shadowsocks"
 
-  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-137.184.174.93-0122"
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0166"
     type: "ss"
-    server: "137.184.174.93"
-    port: 8080
-    cipher: "rc4-md5"
-    password: "14fFPrbezE3HDZzsMOr6"
+    server: "108.181.0.177"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "G5p6ww4o67HB"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0168"
+    type: "ss"
+    server: "173.244.56.9"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0171"
+    type: "ss"
+    server: "173.244.56.6"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-108.181.126.122-0170"
+    type: "ss"
+    server: "108.181.126.122"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "CJmTCCx7Ltud"
+
+  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0172"
+    type: "ss"
+    server: "149.22.95.183"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%AE%F0%9F%87%AAIE-34.251.228.118-0267"
+    type: "trojan"
+    server: "definite-ladybird.rooster465.autos"
+    port: 443
+    password: "UO36402987"
+    sni: "definite-ladybird.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-108.181.58.239-0169"
+    type: "ss"
+    server: "108.181.58.239"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "CJmTCCx7Ltud"
+
+  - name: "%F0%9F%87%AE%F0%9F%87%AAIE-34.251.228.118-0518"
+    type: "trojan"
+    server: "34.251.228.118"
+    port: 443
+    password: "UO36402987"
+    sni: "definite-ladybird.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-44.242.235.129-0176"
+    type: "trojan"
+    server: "devoted-tapir.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "devoted-tapir.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-44.242.235.129-0179"
+    type: "trojan"
+    server: "44.242.235.129"
+    port: 443
+    password: "ND91608427"
+    sni: "devoted-tapir.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-44.246.163.102-0177"
+    type: "trojan"
+    server: "44.246.163.102"
+    port: 443
+    password: "ND91608427"
+    sni: "fleet-bonefish.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%A9%F0%9F%87%AADE-209.46.102.22-0175"
+    type: "ss"
+    server: "209.46.102.22"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "1hhrqrokj3ag"
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-35.86.90.51-0184"
+    type: "trojan"
+    server: "35.86.90.51"
+    port: 443
+    password: "ND91608427"
+    sni: "natural-collie.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-44.246.163.102-0181"
+    type: "trojan"
+    server: "fleet-bonefish.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "fleet-bonefish.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-44.244.3.114-0182"
+    type: "trojan"
+    server: "44.244.3.114"
+    port: 443
+    password: "ND91608427"
+    sni: "pet-ghost.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-44.244.3.114-0178"
+    type: "trojan"
+    server: "pet-ghost.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "pet-ghost.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%BA%F0%9F%87%B8US-216.105.168.18-0188"
+    type: "ss"
+    server: "216.105.168.18"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "hCCWOcIsK5wrFz4OX70rWf"
+
+  - name: "🏁RELAY-188.114.97.6-0545"
+    type: "vmess"
+    server: "cf.levikogjgfdd.ir"
+    port: 2053
+    cipher: "auto"
+    uuid: "9a1a05d9-69be-45d3-e326-c6621edf7b31"
+    alterId: 0
+    network: "ws"
+
+  - name: "🇩🇪DE-104.105.28.164-0610"
+    type: "vmess"
+    server: "104.105.28.164"
+    port: 2053
+    cipher: "auto"
+    uuid: "9a1a05d9-69be-45d3-e326-c6621edf7b31"
+    alterId: 0
+    network: "ws"
+
+  - name: "%F0%9F%87%B5%F0%9F%87%B1PL-202.78.163.148-0194"
+    type: "trojan"
+    server: "discrete-basilisk.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "discrete-basilisk.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%B5%F0%9F%87%B1PL-202.78.163.148-0193"
+    type: "trojan"
+    server: "202.78.163.148"
+    port: 443
+    password: "ND91608427"
+    sni: "discrete-basilisk.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%B5%F0%9F%87%B1PL-202.78.163.248-0195"
+    type: "trojan"
+    server: "202.78.163.248"
+    port: 443
+    password: "ND91608427"
+    sni: "relaxed-gull.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%B5%F0%9F%87%B1PL-202.78.163.248-0196"
+    type: "trojan"
+    server: "relaxed-gull.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "relaxed-gull.rooster465.autos"
+    udp: true
 
   - name: "%F0%9F%87%AF%F0%9F%87%B5JP-149.22.87.240-0197"
     type: "ss"
@@ -655,20 +805,28 @@ proxies:
     cipher: "aes-128-gcm"
     password: "shadowsocks"
 
-  - name: "%F0%9F%87%AE%F0%9F%87%AAIE-54.217.133.71-0173"
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.112.238.99-0228"
     type: "trojan"
-    server: "willing-beagle.rooster465.autos"
+    server: "stunning-mite.rooster465.autos"
     port: 443
     password: "ND91608427"
-    sni: "willing-beagle.rooster465.autos"
+    sni: "stunning-mite.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-57.180.27.225-0234"
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-13.192.168.51-0216"
     type: "trojan"
-    server: "57.180.27.225"
+    server: "learning-leopard.rooster465.autos"
     port: 443
     password: "ND91608427"
-    sni: "picked-guinea.rooster465.autos"
+    sni: "learning-leopard.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.113.1.131-0212"
+    type: "trojan"
+    server: "perfect-slug.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "perfect-slug.rooster465.autos"
     udp: true
 
   - name: "%F0%9F%87%AF%F0%9F%87%B5JP-57.180.13.78-0225"
@@ -679,76 +837,12 @@ proxies:
     sni: "healthy-louse.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%AE%F0%9F%87%AAIE-54.217.133.71-0174"
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.113.24.17-0213"
     type: "trojan"
-    server: "54.217.133.71"
+    server: "3.113.24.17"
     port: 443
     password: "ND91608427"
-    sni: "willing-beagle.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-13.231.232.184-0224"
-    type: "trojan"
-    server: "13.231.232.184"
-    port: 443
-    password: "ND91608427"
-    sni: "better-molly.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-57.180.27.225-0211"
-    type: "trojan"
-    server: "picked-guinea.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "picked-guinea.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.179.31.199-0217"
-    type: "trojan"
-    server: "18.179.31.199"
-    port: 443
-    password: "ND91608427"
-    sni: "prompt-duckling.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.178.132.111-0232"
-    type: "trojan"
-    server: "devoted-heron.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "devoted-heron.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.181.194.227-0231"
-    type: "trojan"
-    server: "moral-buzzard.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "moral-buzzard.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.181.164.216-0219"
-    type: "trojan"
-    server: "18.181.164.216"
-    port: 443
-    password: "ND91608427"
-    sni: "upright-impala.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-13.231.232.184-0221"
-    type: "trojan"
-    server: "better-molly.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "better-molly.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-54.65.167.167-0214"
-    type: "trojan"
-    server: "tough-robin.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "tough-robin.rooster465.autos"
+    sni: "nearby-egret.rooster465.autos"
     udp: true
 
   - name: "%F0%9F%87%AF%F0%9F%87%B5JP-13.192.168.51-0210"
@@ -757,6 +851,46 @@ proxies:
     port: 443
     password: "ND91608427"
     sni: "learning-leopard.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-52.196.121.8-0215"
+    type: "trojan"
+    server: "thankful-mustang.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "thankful-mustang.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.181.164.216-0204"
+    type: "trojan"
+    server: "upright-impala.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "upright-impala.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-13.230.118.96-0230"
+    type: "trojan"
+    server: "real-werewolf.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "real-werewolf.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.181.175.120-0206"
+    type: "trojan"
+    server: "sure-humpback.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "sure-humpback.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.112.223.141-0208"
+    type: "trojan"
+    server: "internal-sunbird.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "internal-sunbird.rooster465.autos"
     udp: true
 
   - name: "%F0%9F%87%AF%F0%9F%87%B5JP-54.65.167.167-0199"
@@ -775,123 +909,13 @@ proxies:
     sni: "sensible-mongrel.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.112.238.99-0233"
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-57.180.27.225-0211"
     type: "trojan"
-    server: "3.112.238.99"
+    server: "picked-guinea.rooster465.autos"
     port: 443
     password: "ND91608427"
-    sni: "stunning-mite.rooster465.autos"
+    sni: "picked-guinea.rooster465.autos"
     udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-52.196.121.8-0215"
-    type: "trojan"
-    server: "thankful-mustang.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "thankful-mustang.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.178.132.111-0227"
-    type: "trojan"
-    server: "18.178.132.111"
-    port: 443
-    password: "ND91608427"
-    sni: "devoted-heron.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.112.223.141-0220"
-    type: "trojan"
-    server: "3.112.223.141"
-    port: 443
-    password: "ND91608427"
-    sni: "internal-sunbird.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-13.192.168.51-0216"
-    type: "trojan"
-    server: "learning-leopard.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "learning-leopard.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-149.22.87.241-0201"
-    type: "ss"
-    server: "149.22.87.241"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.113.1.131-0212"
-    type: "trojan"
-    server: "perfect-slug.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "perfect-slug.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-13.230.118.96-0230"
-    type: "trojan"
-    server: "real-werewolf.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "real-werewolf.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.112.223.141-0208"
-    type: "trojan"
-    server: "internal-sunbird.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "internal-sunbird.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.113.24.17-0207"
-    type: "trojan"
-    server: "nearby-egret.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "nearby-egret.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-57.180.13.78-0223"
-    type: "trojan"
-    server: "57.180.13.78"
-    port: 443
-    password: "ND91608427"
-    sni: "healthy-louse.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.113.24.17-0213"
-    type: "trojan"
-    server: "3.113.24.17"
-    port: 443
-    password: "ND91608427"
-    sni: "nearby-egret.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.112.238.99-0228"
-    type: "trojan"
-    server: "stunning-mite.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "stunning-mite.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.112.15.214-0226"
-    type: "trojan"
-    server: "3.112.15.214"
-    port: 443
-    password: "ND91608427"
-    sni: "adjusted-labrador.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-108.181.126.122-0170"
-    type: "ss"
-    server: "108.181.126.122"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "CJmTCCx7Ltud"
 
   - name: "%F0%9F%87%AF%F0%9F%87%B5JP-35.72.13.34-0203"
     type: "trojan"
@@ -899,37 +923,6 @@ proxies:
     port: 443
     password: "ND91608427"
     sni: "casual-bee.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.181.164.216-0204"
-    type: "trojan"
-    server: "upright-impala.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "upright-impala.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%B3%F0%9F%87%B1NL-108.181.58.239-0169"
-    type: "ss"
-    server: "108.181.58.239"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "CJmTCCx7Ltud"
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.181.175.120-0206"
-    type: "trojan"
-    server: "sure-humpback.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "sure-humpback.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.112.15.214-0202"
-    type: "trojan"
-    server: "adjusted-labrador.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "adjusted-labrador.rooster465.autos"
     udp: true
 
   - name: "%F0%9F%87%AF%F0%9F%87%B5JP-54.249.34.120-0200"
@@ -940,43 +933,52 @@ proxies:
     sni: "social-mutt.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.181.194.227-0205"
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.112.238.99-0233"
     type: "trojan"
-    server: "18.181.194.227"
+    server: "3.112.238.99"
     port: 443
     password: "ND91608427"
-    sni: "moral-buzzard.rooster465.autos"
+    sni: "stunning-mite.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%A9%F0%9F%87%AADE-209.46.102.22-0175"
-    type: "ss"
-    server: "209.46.102.22"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "1hhrqrokj3ag"
-
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-3.36.59.34-0243"
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-57.180.13.78-0223"
     type: "trojan"
-    server: "3.36.59.34"
+    server: "57.180.13.78"
     port: 443
     password: "ND91608427"
-    sni: "select-ferret.rooster465.autos"
+    sni: "healthy-louse.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-3.36.131.218-0238"
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-54.65.167.167-0214"
     type: "trojan"
-    server: "humorous-malamute.rooster465.autos"
+    server: "tough-robin.rooster465.autos"
     port: 443
     password: "ND91608427"
-    sni: "humorous-malamute.rooster465.autos"
+    sni: "tough-robin.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.202.56.122-0239"
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.112.15.214-0202"
     type: "trojan"
-    server: "43.202.56.122"
+    server: "adjusted-labrador.rooster465.autos"
     port: 443
     password: "ND91608427"
-    sni: "striking-maggot.rooster465.autos"
+    sni: "adjusted-labrador.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.181.164.216-0219"
+    type: "trojan"
+    server: "18.181.164.216"
+    port: 443
+    password: "ND91608427"
+    sni: "upright-impala.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.178.132.111-0227"
+    type: "trojan"
+    server: "18.178.132.111"
+    port: 443
+    password: "ND91608427"
+    sni: "devoted-heron.rooster465.autos"
     udp: true
 
   - name: "%F0%9F%87%AF%F0%9F%87%B5JP-54.249.34.120-0218"
@@ -987,60 +989,105 @@ proxies:
     sni: "social-mutt.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-54.180.228.238-0260"
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.112.15.214-0226"
     type: "trojan"
-    server: "pure-ram.rooster465.autos"
+    server: "3.112.15.214"
     port: 443
     password: "ND91608427"
-    sni: "pure-ram.rooster465.autos"
+    sni: "adjusted-labrador.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-3.36.131.218-0252"
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-149.22.87.241-0201"
+    type: "ss"
+    server: "149.22.87.241"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-57.180.27.225-0234"
     type: "trojan"
-    server: "3.36.131.218"
+    server: "57.180.27.225"
     port: 443
     password: "ND91608427"
-    sni: "humorous-malamute.rooster465.autos"
+    sni: "picked-guinea.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.201.56.44-0235"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-141.98.101.181-0191"
+    type: "ss"
+    server: "141.98.101.181"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-13.231.232.184-0221"
     type: "trojan"
-    server: "distinct-llama.rooster465.autos"
+    server: "better-molly.rooster465.autos"
     port: 443
     password: "ND91608427"
-    sni: "distinct-llama.rooster465.autos"
+    sni: "better-molly.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.201.46.108-0237"
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.113.24.17-0207"
     type: "trojan"
-    server: "exotic-chow.rooster465.autos"
+    server: "nearby-egret.rooster465.autos"
     port: 443
     password: "ND91608427"
-    sni: "exotic-chow.rooster465.autos"
+    sni: "nearby-egret.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.201.103.8-0242"
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.181.194.227-0231"
     type: "trojan"
-    server: "intimate-moray.rooster465.autos"
+    server: "moral-buzzard.rooster465.autos"
     port: 443
     password: "ND91608427"
-    sni: "intimate-moray.rooster465.autos"
+    sni: "moral-buzzard.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-54.180.228.238-0244"
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-3.112.223.141-0220"
     type: "trojan"
-    server: "54.180.228.238"
+    server: "3.112.223.141"
     port: 443
     password: "ND91608427"
-    sni: "pure-ram.rooster465.autos"
+    sni: "internal-sunbird.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.201.56.44-0251"
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-13.231.232.184-0224"
     type: "trojan"
-    server: "43.201.56.44"
+    server: "13.231.232.184"
     port: 443
     password: "ND91608427"
-    sni: "distinct-llama.rooster465.autos"
+    sni: "better-molly.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.181.194.227-0205"
+    type: "trojan"
+    server: "18.181.194.227"
+    port: 443
+    password: "ND91608427"
+    sni: "moral-buzzard.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.178.132.111-0232"
+    type: "trojan"
+    server: "devoted-heron.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "devoted-heron.rooster465.autos"
+    udp: true
+
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-141.98.101.182-0192"
+    type: "ss"
+    server: "141.98.101.182"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.203.119.20-0255"
+    type: "trojan"
+    server: "uncommon-feline.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+    sni: "uncommon-feline.rooster465.autos"
     udp: true
 
   - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.203.247.197-0257"
@@ -1051,28 +1098,36 @@ proxies:
     sni: "definite-malamute.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.203.119.20-0255"
+  - name: "🏁RELAY-104.21.61.57-0550"
+    type: "vmess"
+    server: "rush-72frf.meeopp.site"
+    port: 443
+    cipher: "auto"
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    network: "ws"
+
+  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-54.180.228.238-0244"
     type: "trojan"
-    server: "uncommon-feline.rooster465.autos"
+    server: "54.180.228.238"
     port: 443
     password: "ND91608427"
-    sni: "uncommon-feline.rooster465.autos"
+    sni: "pure-ram.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.203.244.203-0236"
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-141.98.101.179-0190"
+    type: "ss"
+    server: "141.98.101.179"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+
+  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.203.244.203-0249"
     type: "trojan"
-    server: "grateful-owl.rooster465.autos"
+    server: "43.203.244.203"
     port: 443
     password: "ND91608427"
     sni: "grateful-owl.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-52.79.210.229-0241"
-    type: "trojan"
-    server: "52.79.210.229"
-    port: 443
-    password: "ND91608427"
-    sni: "chief-bluegill.rooster465.autos"
     udp: true
 
   - name: "%F0%9F%87%B0%F0%9F%87%B7KR-3.38.106.2-0256"
@@ -1083,14 +1138,6 @@ proxies:
     sni: "communal-sunbird.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-3.35.140.99-0258"
-    type: "trojan"
-    server: "moved-meerkat.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "moved-meerkat.rooster465.autos"
-    udp: true
-
   - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.202.56.122-0246"
     type: "trojan"
     server: "striking-maggot.rooster465.autos"
@@ -1099,76 +1146,12 @@ proxies:
     sni: "striking-maggot.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-13.125.239.182-0247"
+  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.201.103.8-0242"
     type: "trojan"
-    server: "saving-octopus.rooster465.autos"
+    server: "intimate-moray.rooster465.autos"
     port: 443
     password: "ND91608427"
-    sni: "saving-octopus.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-3.36.59.34-0240"
-    type: "trojan"
-    server: "select-ferret.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "select-ferret.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.203.119.20-0245"
-    type: "trojan"
-    server: "43.203.119.20"
-    port: 443
-    password: "ND91608427"
-    sni: "uncommon-feline.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-43.203.244.203-0249"
-    type: "trojan"
-    server: "43.203.244.203"
-    port: 443
-    password: "ND91608427"
-    sni: "grateful-owl.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-3.38.106.2-0248"
-    type: "trojan"
-    server: "communal-sunbird.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "communal-sunbird.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-52.79.210.229-0250"
-    type: "trojan"
-    server: "chief-bluegill.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "chief-bluegill.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-3.35.140.99-0253"
-    type: "trojan"
-    server: "3.35.140.99"
-    port: 443
-    password: "ND91608427"
-    sni: "moved-meerkat.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%B5%F0%9F%87%B1PL-202.78.163.248-0196"
-    type: "trojan"
-    server: "relaxed-gull.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "relaxed-gull.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%B5%F0%9F%87%B1PL-202.78.163.148-0193"
-    type: "trojan"
-    server: "202.78.163.148"
-    port: 443
-    password: "ND91608427"
-    sni: "discrete-basilisk.rooster465.autos"
+    sni: "intimate-moray.rooster465.autos"
     udp: true
 
 proxy-groups:
@@ -1191,21 +1174,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%B7%B4%E8%A5%BF%E5%9C%A3%E4%BF%9D%E7%BD%97+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+%E4%B9%94%E6%B2%BB%E4%BA%9A%E6%B4%B2%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7Fastly%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "台湾省 中华电信(HiNet)数据中心"
+      - "%E9%A6%99%E6%B8%AF+%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E5%9B%BD%E9%99%85%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
   - name: Auto
     type: url-test
     proxies:
@@ -1224,21 +1207,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%B7%B4%E8%A5%BF%E5%9C%A3%E4%BF%9D%E7%BD%97+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+%E4%B9%94%E6%B2%BB%E4%BA%9A%E6%B4%B2%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7Fastly%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "台湾省 中华电信(HiNet)数据中心"
+      - "%E9%A6%99%E6%B8%AF+%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E5%9B%BD%E9%99%85%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
