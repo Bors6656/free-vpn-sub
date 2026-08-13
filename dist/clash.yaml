@@ -130,9 +130,17 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+  - name: "%E6%B3%95%E5%9B%BD%E5%B7%B4%E9%BB%8E+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "104.16.174.72"
+    server: "141.101.90.101"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+%E5%8A%A0%E5%B7%9E"
+    type: "trojan"
+    server: "216.24.57.7"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
@@ -140,35 +148,59 @@ proxies:
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "104.16.174.36"
+    server: "104.18.152.50"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.17.177.143"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+%E4%B9%94%E6%B2%BB%E4%BA%9A%E6%B4%B2%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7Fastly%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "151.101.56.8"
+    port: 443
+    password: "MiTiVPN"
+    sni: "default.fastly.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+%E5%BE%97%E5%85%8B%E8%90%A8%E6%96%AF%E5%B7%9E%E8%BE%BE%E6%8B%89%E6%96%AFCloudflare+Warp%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "8.6.112.6"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.16.174.22"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.26.14.137"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
     type: "vless"
-    server: "172.64.145.166"
-    port: 2087
-    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
-    network: "ws"
-    sni: "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.16.174.121"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.16.7.70"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
+    server: "ge.imsoon.org"
+    port: 8443
+    uuid: "SoonTeam"
+    network: "grpc"
+    sni: "wxug.com"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
@@ -179,9 +211,25 @@ proxies:
     sni: "www.ignitelimit.com"
     udp: true
 
-  - name: "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
+  - name: "%E7%BE%8E%E5%9B%BD+%E5%8A%A0%E5%B7%9E"
     type: "trojan"
-    server: "130.250.137.171"
+    server: "216.24.57.1"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.26.15.137"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.18.152.103"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
@@ -195,63 +243,6 @@ proxies:
     sni: "ssl.fastly.com"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "trojan"
-    server: "199.232.78.150"
-    port: 443
-    password: "MiTiVPN"
-    sni: "ssl.fastly.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.18.152.159"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
-    type: "vless"
-    server: "167.17.69.171"
-    port: 443
-    uuid: "00144519-7e0d-476b-8d28-435576af9262"
-    network: "tcp"
-    sni: "www.cloudflare.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.18.152.97"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.17.111.4"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.16.174.46"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.17.111.8"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
     server: "104.16.174.117"
@@ -262,15 +253,7 @@ proxies:
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "104.18.152.113"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "172.67.221.242"
+    server: "104.18.23.63"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
@@ -279,6 +262,30 @@ proxies:
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
     server: "104.21.46.3"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "trojan"
+    server: "199.232.78.150"
+    port: 443
+    password: "MiTiVPN"
+    sni: "ssl.fastly.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.18.152.77"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.18.12.149"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
@@ -1160,15 +1167,6 @@ proxies:
     sni: "classic-gator.rooster465.autos"
     udp: true
 
-  - name: "🏁RELAY-172.67.206.183-0213"
-    type: "vmess"
-    server: "rush-72frf.meeopp.site"
-    port: 443
-    cipher: "auto"
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    network: "ws"
-
 proxy-groups:
   - name: Proxy
     type: select
@@ -1189,20 +1187,20 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
+      - "%E6%B3%95%E5%9B%BD%E5%B7%B4%E9%BB%8E+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+%E5%8A%A0%E5%B7%9E"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+%E4%B9%94%E6%B2%BB%E4%BA%9A%E6%B4%B2%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7Fastly%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+%E5%BE%97%E5%85%8B%E8%90%A8%E6%96%AF%E5%B7%9E%E8%BE%BE%E6%8B%89%E6%96%AFCloudflare+Warp%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+%E5%8A%A0%E5%B7%9E"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
   - name: Auto
     type: url-test
@@ -1222,20 +1220,20 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
+      - "%E6%B3%95%E5%9B%BD%E5%B7%B4%E9%BB%8E+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+%E5%8A%A0%E5%B7%9E"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+%E4%B9%94%E6%B2%BB%E4%BA%9A%E6%B4%B2%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7Fastly%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+%E5%BE%97%E5%85%8B%E8%90%A8%E6%96%AF%E5%B7%9E%E8%BE%BE%E6%8B%89%E6%96%AFCloudflare+Warp%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+%E5%8A%A0%E5%B7%9E"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     url: http://www.gstatic.com/generate_204
     interval: 300
