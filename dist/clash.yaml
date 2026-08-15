@@ -130,38 +130,13 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A+V2CROSS.COM"
-    type: "trojan"
-    server: "84.21.172.81"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    udp: true
-
-  - name: "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
-    type: "trojan"
-    server: "2.144.21.150"
-    port: 2000
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "俄罗斯 V2CROSS.COM"
-    type: "vmess"
-    server: "neo.novaro.ir"
-    port: 2087
-    cipher: "auto"
-    uuid: "260270e9-c25c-491a-8777-ea4e5173d49c"
-    alterId: 0
-    network: "tcp"
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+  - name: "%E7%BE%8E%E5%9B%BD+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
     type: "vless"
-    server: "www.glassdoor.com"
-    port: 8880
-    uuid: "5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1"
+    server: "52.84.199.28"
+    port: 443
+    uuid: "7ce54bb3-d612-4aa7-be08-089d3c461d53"
     network: "ws"
-    sni: "www.glassdoor.com"
+    sni: "d1yxsk0zprgivr.cloudfront.net"
     udp: true
 
   - name: "英国 V2CROSS.COM"
@@ -173,12 +148,40 @@ proxies:
     alterId: 0
     network: "tcp"
 
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.26.15.137"
+  - name: "%E7%BE%8E%E5%9B%BD+%E4%B9%94%E6%B2%BB%E4%BA%9A%E6%B4%B2%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7Fastly%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "k2.cloud--vpn.site"
     port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
+    uuid: "79c9514e-aa3c-4cd0-bf0d-dd6df42039f6"
+    network: "ws"
+    sni: "ssl.fastly.com"
+    udp: true
+
+  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+    type: "vless"
+    server: "91.193.58.218"
+    port: 2096
+    uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
+    network: "ws"
+    sni: "free-server.techsonic.dev"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "168.222.202.15"
+    port: 4100
+    uuid: "2001e98b-e06e-4244-910f-7ff640746eda"
+    network: "ws"
+    sni: "168.222.202.15"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "199.232.78.159"
+    port: 443
+    uuid: "793ddc21-ef27-4420-aea5-f1776460d6ac"
+    network: "ws"
+    sni: "ssl.fastly.com"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
@@ -190,13 +193,13 @@ proxies:
     sni: "c7dabe95.proxy-978.pages.dev"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+  - name: "%E7%BE%8E%E5%9B%BD+%E4%B9%94%E6%B2%BB%E4%BA%9A%E6%B4%B2%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7Fastly%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "45.155.68.164"
-    port: 13868
-    uuid: "06d44c57-8e1a-41f4-b9c4-65d35869e078"
-    network: "tcp"
-    sni: "yoox.com"
+    server: "151.101.56.6"
+    port: 443
+    uuid: "79c9514e-aa3c-4cd0-bf0d-dd6df42039f6"
+    network: "ws"
+    sni: "ssl.fastly.com"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-198.98.53.130-0242"
@@ -1174,14 +1177,14 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A+V2CROSS.COM"
-      - "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
-      - "俄罗斯 V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
       - "英国 V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+%E4%B9%94%E6%B2%BB%E4%BA%9A%E6%B4%B2%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7Fastly%E8%8A%82%E7%82%B9"
+      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+%E4%B9%94%E6%B2%BB%E4%BA%9A%E6%B4%B2%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7Fastly%E8%8A%82%E7%82%B9"
       - "%F0%9F%87%BA%F0%9F%87%B8US-198.98.53.130-0242"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0221"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0219"
@@ -1207,14 +1210,14 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A+V2CROSS.COM"
-      - "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
-      - "俄罗斯 V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
       - "英国 V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+%E4%B9%94%E6%B2%BB%E4%BA%9A%E6%B4%B2%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7Fastly%E8%8A%82%E7%82%B9"
+      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+%E4%B9%94%E6%B2%BB%E4%BA%9A%E6%B4%B2%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7Fastly%E8%8A%82%E7%82%B9"
       - "%F0%9F%87%BA%F0%9F%87%B8US-198.98.53.130-0242"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.236-0221"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0219"
