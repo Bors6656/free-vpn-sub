@@ -130,13 +130,127 @@ proxies:
     alterId: 0
     network: "ws"
 
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.16.7.70"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.18.23.63"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.26.14.137"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "104.19.214.146"
+    port: 2087
+    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
+    network: "ws"
+    sni: "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.16.73.213"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.18.152.179"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.16.174.121"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "ip.myip2.qzz.io"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.17.111.8"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.18.152.108"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.16.174.34"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
   - name: "%E7%91%9E%E5%A3%AB+V2CROSS.COM"
     type: "vless"
-    server: "169.40.42.231"
+    server: "169.40.42.229"
     port: 443
     uuid: "d65cc14c-f53f-4fe2-b262-97856601319c"
     network: "tcp"
     sni: "yahoo.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.20.6.134"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "104.17.185.207"
+    port: 2095
+    uuid: "86c50e3a-5b87-49dd-bd20-03c7f2735e40"
+    network: "ws"
+    sni: "104.17.185.207"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.18.152.133"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
@@ -147,56 +261,20 @@ proxies:
     sni: "www.ignitelimit.com"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2"
-    type: "vless"
-    server: "18.239.134.69"
-    port: 80
-    uuid: "de27291c-15a9-4256-9ba7-ad517569877e"
-    network: "ws"
-    sni: "18.239.134.69"
-    udp: true
-
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+%E6%96%B0%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9Ajusthost"
-    type: "ss"
-    server: "45.8.158.176"
-    port: 10801
-    cipher: "aes-256-gcm"
-    password: "1eadd4e4a37b6601"
-
-  - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "31.76.69.40"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.21.46.3"
     port: 443
-    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
-    network: "tcp"
-    sni: "eu-central.cendora.ru"
+    password: "humanity"
+    sni: "www.ignitelimit.com"
     udp: true
 
-  - name: "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
-    type: "vless"
-    server: "91.132.161.245"
-    port: 18456
-    uuid: "042a4a95-68f5-4179-89b3-69475a5d4908"
-    network: "tcp"
-    sni: "shop-eu-de.amd.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "108.138.26.70"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.18.152.229"
     port: 443
-    uuid: "7ce54bb3-d612-4aa7-be08-089d3c461d53"
-    network: "ws"
-    sni: "d1yxsk0zprgivr.cloudfront.net"
-    udp: true
-
-  - name: "%E7%91%9E%E5%A3%AB+V2CROSS.COM"
-    type: "vless"
-    server: "169.40.42.35"
-    port: 443
-    uuid: "d65cc14c-f53f-4fe2-b262-97856601319c"
-    network: "tcp"
-    sni: "yahoo.com"
+    password: "humanity"
+    sni: "www.ignitelimit.com"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0121"
@@ -1089,86 +1167,6 @@ proxies:
     sni: "noted-cougar.rooster465.autos"
     udp: true
 
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-13.115.230.84-0174"
-    type: "trojan"
-    server: "polished-imp.rooster465.autos"
-    port: 443
-    password: "AE62539071"
-    sni: "polished-imp.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-57.180.27.225-0222"
-    type: "trojan"
-    server: "picked-guinea.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "picked-guinea.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-13.193.221.67-0221"
-    type: "trojan"
-    server: "main-impala.rooster465.autos"
-    port: 443
-    password: "AE62539071"
-    sni: "main-impala.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-43.207.87.43-0175"
-    type: "trojan"
-    server: "casual-stallion.rooster465.autos"
-    port: 443
-    password: "FH72359861"
-    sni: "casual-stallion.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-52.195.215.144-0173"
-    type: "trojan"
-    server: "great-wasp.rooster465.autos"
-    port: 443
-    password: "FH72359861"
-    sni: "great-wasp.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-18.178.132.111-0176"
-    type: "trojan"
-    server: "devoted-heron.rooster465.autos"
-    port: 443
-    password: "ND91608427"
-    sni: "devoted-heron.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AE%F0%9F%87%AAIE-54.170.38.205-0277"
-    type: "trojan"
-    server: "unbiased-garfish.rooster465.autos"
-    port: 443
-    password: "AE62539071"
-    sni: "unbiased-garfish.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-13.113.98.210-2272"
-    type: "trojan"
-    server: "mighty-lemming.rooster465.autos"
-    port: 443
-    password: "PQ05174892"
-    sni: "mighty-lemming.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AE%F0%9F%87%AAIE-54.74.159.195-0252"
-    type: "trojan"
-    server: "kind-stork.rooster465.autos"
-    port: 443
-    password: "AE62539071"
-    sni: "kind-stork.rooster465.autos"
-    udp: true
-
-  - name: "%F0%9F%87%AE%F0%9F%87%AAIE-54.72.58.12-0254"
-    type: "trojan"
-    server: "darling-mongrel.rooster465.autos"
-    port: 443
-    password: "FH72359861"
-    sni: "darling-mongrel.rooster465.autos"
-    udp: true
-
 proxy-groups:
   - name: Proxy
     type: select
@@ -1189,21 +1187,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%91%9E%E5%A3%AB+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+%E6%96%B0%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9Ajusthost"
-      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-      - "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%91%9E%E5%A3%AB+V2CROSS.COM"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0121"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0119"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0120"
-      - "%F0%9F%87%A8%F0%9F%87%A6CA-108.181.118.10-0118"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-54.244.169.225-0117"
-      - "%F0%9F%87%AF%F0%9F%87%B5JP-45.32.16.53-5149"
-      - "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0112"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
   - name: Auto
     type: url-test
     proxies:
@@ -1222,21 +1220,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%91%9E%E5%A3%AB+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+%E6%96%B0%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9Ajusthost"
-      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-      - "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%91%9E%E5%A3%AB+V2CROSS.COM"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0121"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0119"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0120"
-      - "%F0%9F%87%A8%F0%9F%87%A6CA-108.181.118.10-0118"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-54.244.169.225-0117"
-      - "%F0%9F%87%AF%F0%9F%87%B5JP-45.32.16.53-5149"
-      - "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0112"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
