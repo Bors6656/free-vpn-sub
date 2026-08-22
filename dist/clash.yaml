@@ -130,6 +130,23 @@ proxies:
     alterId: 0
     network: "ws"
 
+  - name: "%E6%B3%95%E5%9B%BD%E5%B7%B4%E9%BB%8E+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "141.101.90.101"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "172.67.69.106"
+    port: 443
+    uuid: "1bc380b1-cff7-446f-b13f-5c0ad29fc75a"
+    network: "ws"
+    sni: "zero.csmaster.ggff.net"
+    udp: true
+
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
     server: "172.67.185.178"
@@ -148,21 +165,21 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.26.15.137"
+  - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "194.154.30.154"
     port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
+    uuid: "c7e9c591-2764-423a-afca-efbd010fd396"
+    network: "ws"
+    sni: "forfreeuse.rtqa.ru"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "172.67.69.106"
+    type: "trojan"
+    server: "198.41.223.96"
     port: 443
-    uuid: "1bc380b1-cff7-446f-b13f-5c0ad29fc75a"
-    network: "ws"
-    sni: "zero.csmaster.ggff.net"
+    password: "humanity"
+    sni: "www.ignitelimit.com"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
@@ -172,23 +189,6 @@ proxies:
     password: "humanity"
     sni: "www.ignitelimit.com"
     udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "www.speedtest.org"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "美国 V2CROSS.COM"
-    type: "vmess"
-    server: "planb.mojcn.com.linuxlh.xin"
-    port: 16632
-    cipher: "auto"
-    uuid: "97c638c6-86d5-4cf6-b70b-114c6809b637"
-    alterId: 0
-    network: "ws"
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0094"
     type: "ss"
@@ -1167,13 +1167,13 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
+      - "%E6%B3%95%E5%9B%BD%E5%B7%B4%E9%BB%8E+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "南非豪登省约翰内斯堡 Cloudinnovation数据中心"
+      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "美国 V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0094"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0090"
       - "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0074"
@@ -1200,13 +1200,13 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
+      - "%E6%B3%95%E5%9B%BD%E5%B7%B4%E9%BB%8E+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "南非豪登省约翰内斯堡 Cloudinnovation数据中心"
+      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "美国 V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0094"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0090"
       - "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0074"
