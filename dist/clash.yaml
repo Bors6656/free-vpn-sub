@@ -130,15 +130,6 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-    type: "vless"
-    server: "81.200.144.27"
-    port: 4100
-    uuid: "f0528a17-863f-4160-a5a0-0d9ad03f2ee7"
-    network: "ws"
-    sni: "81.200.144.27"
-    udp: true
-
   - name: "%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A+V2CROSS.COM"
     type: "vless"
     server: "195.123.210.168"
@@ -148,12 +139,37 @@ proxies:
     sni: "auto.cendora.ru"
     udp: true
 
-  - name: "%E5%B7%B4%E8%A5%BF%E5%9C%A3%E4%BF%9D%E7%BD%97+CloudFlare%E8%8A%82%E7%82%B9"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "188.114.97.7"
+    server: "www.speedtest.org"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.26.14.137"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "join-telegram-channel.tirexnet.kdns.fr"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "104.18.42.163"
+    port: 2087
+    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
+    network: "ws"
+    sni: "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
@@ -164,47 +180,20 @@ proxies:
     sni: "www.ignitelimit.com"
     udp: true
 
-  - name: "美国 CloudFlare节点"
-    type: "vmess"
-    server: "rush-t2tvv.ceeopp.site"
-    port: 443
-    cipher: "auto"
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    network: "ws"
-
-  - name: "%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A+V2CROSS.COM"
-    type: "vless"
-    server: "195.123.210.168"
-    port: 443
-    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
-    network: "tcp"
-    sni: "eu-west.cendora.ru"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+  - name: "%E5%B7%B4%E8%A5%BF%E5%9C%A3%E4%BF%9D%E7%BD%97+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "140.248.185.253"
-    port: 443
-    password: "MiTiVPN"
-    sni: "ssl.fastly.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "198.41.223.96"
+    server: "188.114.97.7"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
     udp: true
 
-  - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-    type: "trojan"
-    server: "kkvlvvq-a.catcat321.com"
-    port: 20056
-    password: "a126f35c-e832-4115-8593-b723ade3f7be"
-    sni: "hk.catxstar.com"
-    udp: true
+  - name: "%E4%BA%9A%E5%A4%AA%E5%9C%B0%E5%8C%BA+V2CROSS.COM"
+    type: "ss"
+    server: "103.236.66.4"
+    port: 50001
+    cipher: "aes-256-gcm"
+    password: "Butterfly123@qwe9527"
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0091"
     type: "ss"
@@ -1139,6 +1128,15 @@ proxies:
     alterId: 0
     network: "ws"
 
+  - name: "🇭🇰HK-124.156.143.241-0069"
+    type: "vmess"
+    server: "124.156.143.241"
+    port: 80
+    cipher: "auto"
+    uuid: "3cfa2dd2-41cd-4260-dc61-21c8a2446e21"
+    alterId: 0
+    network: "ws"
+
 proxy-groups:
   - name: Proxy
     type: select
@@ -1159,21 +1157,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
       - "%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E5%B7%B4%E8%A5%BF%E5%9C%A3%E4%BF%9D%E7%BD%97+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "美国 CloudFlare节点"
-      - "%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+      - "%E4%BA%9A%E5%A4%AA%E5%9C%B0%E5%8C%BA+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0091"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0126"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.167-0131"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.170-0155"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0148"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.168-0147"
+      - "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0130"
   - name: Auto
     type: url-test
     proxies:
@@ -1192,21 +1190,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
       - "%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E5%B7%B4%E8%A5%BF%E5%9C%A3%E4%BF%9D%E7%BD%97+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "美国 CloudFlare节点"
-      - "%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+      - "%E4%BA%9A%E5%A4%AA%E5%9C%B0%E5%8C%BA+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0091"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0126"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.167-0131"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.170-0155"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0148"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.168-0147"
+      - "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0130"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
