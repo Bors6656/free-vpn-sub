@@ -132,82 +132,55 @@ proxies:
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "skk.moe"
+    server: "108.162.198.178"
     port: 8880
-    uuid: "8ddedcc7-6c4e-4df3-a190-ac40926f6694"
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
     network: "ws"
-    sni: "skk.moe"
+    sni: "108.162.198.178"
     udp: true
 
-  - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "31.76.84.174"
-    port: 443
-    uuid: "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b"
-    network: "tcp"
-    sni: "yaruss.stopingiphatered.shop"
-    udp: true
-
-  - name: "%E5%B7%B4%E8%A5%BF%E5%9C%A3%E4%BF%9D%E7%BD%97+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "188.114.96.3"
-    port: 8443
-    uuid: "69848b7f-3ee7-4c30-b035-6cff5e08ac4a"
-    network: "ws"
-    sni: "us.luxes.network"
-    udp: true
-
-  - name: "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
-    type: "vless"
-    server: "46.28.71.154"
-    port: 443
-    uuid: "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b"
-    network: "tcp"
-    sni: "spanish67.kovsh.lol"
-    udp: true
-
-  - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "polkakurvich.hohoterz.beer"
-    port: 443
-    uuid: "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b"
-    network: "tcp"
-    sni: "polkakurvich.hohoterz.beer"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "172.64.80.1"
-    port: 443
-    password: "bpb-trojan"
-    sni: "vless.herogoing.top"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "172.66.170.53"
-    port: 8880
-    uuid: "6b6733fb-580b-411b-8bf8-51137c2aa037"
-    network: "ws"
-    sni: "172.66.170.53"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "104.26.10.213"
-    port: 443
-    uuid: "fdc48be3-a615-41ac-8bd1-ed844c931048"
-    network: "ws"
-    sni: "edgetunnel-4uw.pages.dev"
-    udp: true
-
-  - name: "%E5%8C%97%E4%BA%AC%E5%B8%82+%E6%83%9F%E8%AF%91%E5%A4%A9%E5%88%9B%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+  - name: "%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%B9%BF%E5%B7%9E%E5%B8%82+%E8%85%BE%E8%AE%AF%E4%BA%91"
     type: "vless"
     server: "us22.sofast.live"
     port: 58011
     uuid: "0afc6426-606c-48e7-bd70-3c424a416842"
     network: "tcp"
     sni: "us22.sofast.live"
+    udp: true
+
+  - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "yaruss.stopingiphatered.shop"
+    port: 443
+    uuid: "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b"
+    network: "tcp"
+    sni: "yaruss.stopingiphatered.shop"
+    udp: true
+
+  - name: "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
+    type: "vless"
+    server: "185.147.26.210"
+    port: 443
+    uuid: "1c5ed2e1-56da-41ab-9a78-159d9892ec17"
+    network: "tcp"
+    sni: "example.com"
+    udp: true
+
+  - name: "巴西圣保罗 CloudFlare节点"
+    type: "vmess"
+    server: "188.114.96.19"
+    port: 80
+    cipher: "auto"
+    uuid: "af4be52a-aab3-4db1-a6bb-c23700dcb9c2"
+    alterId: 0
+    network: "ws"
+
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "trojan"
+    server: "167.82.76.7"
+    port: 443
+    password: "mitivpn"
+    sni: "ssl.fastly.com"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0119"
@@ -1125,6 +1098,32 @@ proxies:
     alterId: 0
     network: "ws"
 
+  - name: "%F0%9F%87%A8%F0%9F%87%B3CN-183.236.51.7-0159"
+    type: "trojan"
+    server: "183.236.51.7"
+    port: 10822
+    password: "7d223bae-e183-4bf6-89c3-e327b15df490"
+    sni: "183.236.51.7"
+    udp: true
+
+  - name: "🏁RELAY-162.159.200.75-0160"
+    type: "vmess"
+    server: "162.159.200.75"
+    port: 80
+    cipher: "auto"
+    uuid: "19428c44-85b3-4a7c-8bc4-b58396138322"
+    alterId: 0
+    network: "ws"
+
+  - name: "🇰🇿KZ-38.107.234.57-0132"
+    type: "vmess"
+    server: "3h-kazakhstan1.09vpn.com"
+    port: 80
+    cipher: "auto"
+    uuid: "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c"
+    alterId: 0
+    network: "ws"
+
 proxy-groups:
   - name: Proxy
     type: select
@@ -1146,20 +1145,20 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%B9%BF%E5%B7%9E%E5%B8%82+%E8%85%BE%E8%AE%AF%E4%BA%91"
       - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-      - "%E5%B7%B4%E8%A5%BF%E5%9C%A3%E4%BF%9D%E7%BD%97+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
-      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E5%8C%97%E4%BA%AC%E5%B8%82+%E6%83%9F%E8%AF%91%E5%A4%A9%E5%88%9B%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+      - "巴西圣保罗 CloudFlare节点"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0119"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-108.181.118.10-0109"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-185.156.47.97-2356"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0116"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.168-0106"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0105"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.170-0086"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.167-0111"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0115"
   - name: Auto
     type: url-test
     proxies:
@@ -1179,20 +1178,20 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%B9%BF%E5%B7%9E%E5%B8%82+%E8%85%BE%E8%AE%AF%E4%BA%91"
       - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-      - "%E5%B7%B4%E8%A5%BF%E5%9C%A3%E4%BF%9D%E7%BD%97+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
-      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E5%8C%97%E4%BA%AC%E5%B8%82+%E6%83%9F%E8%AF%91%E5%A4%A9%E5%88%9B%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+      - "巴西圣保罗 CloudFlare节点"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0119"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-108.181.118.10-0109"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-185.156.47.97-2356"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0116"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.168-0106"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0105"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.170-0086"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.167-0111"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0115"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
