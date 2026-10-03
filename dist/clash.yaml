@@ -130,13 +130,22 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E5%8F%B0%E6%B9%BE%E7%9C%81%E5%BD%B0%E5%8C%96%E5%8E%BF+Google%E4%BA%91%E8%AE%A1%E7%AE%97%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+  - name: "%E5%8C%97%E4%BA%AC%E5%B8%82+%E7%99%BE%E5%BA%A6%E7%94%B5%E4%BF%A1%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "35.185.179.62"
-    port: 443
-    uuid: "5567cac6-2a32-4318-83cd-7df3a9eebbd7"
+    server: "jp.sofast.live"
+    port: 52683
+    uuid: "5aaa5259-f924-4682-a4a3-149d472a9dcc"
     network: "tcp"
-    sni: "www.cloudflare.com"
+    sni: "jp.sofast.live"
+    udp: true
+
+  - name: "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
+    type: "vless"
+    server: "91.108.249.201"
+    port: 705
+    uuid: "87fd990d-ca93-440a-bbd4-e8281c4a0910"
+    network: "grpc"
+    sni: "www.kayak.com"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-198.98.53.130-0058"
@@ -1100,13 +1109,6 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-141.164.45.187-0153"
-    type: "ss"
-    server: "141.164.45.187"
-    port: 8000
-    cipher: "aes-256-gcm"
-    password: "KixLvKzwjekG00rm"
-
 proxy-groups:
   - name: Proxy
     type: select
@@ -1127,7 +1129,8 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E5%8F%B0%E6%B9%BE%E7%9C%81%E5%BD%B0%E5%8C%96%E5%8E%BF+Google%E4%BA%91%E8%AE%A1%E7%AE%97%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+      - "%E5%8C%97%E4%BA%AC%E5%B8%82+%E7%99%BE%E5%BA%A6%E7%94%B5%E4%BF%A1%E8%8A%82%E7%82%B9"
+      - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-198.98.53.130-0058"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0063"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-185.156.47.97-0179"
@@ -1141,7 +1144,6 @@ proxy-groups:
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.206-0101"
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.181-0084"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0057"
-      - "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.204-0078"
   - name: Auto
     type: url-test
     proxies:
@@ -1160,7 +1162,8 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E5%8F%B0%E6%B9%BE%E7%9C%81%E5%BD%B0%E5%8C%96%E5%8E%BF+Google%E4%BA%91%E8%AE%A1%E7%AE%97%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+      - "%E5%8C%97%E4%BA%AC%E5%B8%82+%E7%99%BE%E5%BA%A6%E7%94%B5%E4%BF%A1%E8%8A%82%E7%82%B9"
+      - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-198.98.53.130-0058"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0063"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-185.156.47.97-0179"
@@ -1174,7 +1177,6 @@ proxy-groups:
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.206-0101"
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.181-0084"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0057"
-      - "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.204-0078"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
