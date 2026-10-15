@@ -130,50 +130,6 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-    type: "vless"
-    server: "78.159.250.214"
-    port: 443
-    uuid: "4054fdc2-ee80-4419-8a8e-d937df4719e2"
-    network: "tcp"
-    sni: "qq.utiltools.site"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "russia.com"
-    port: 443
-    password: "bpb-trojan"
-    sni: "6982410.xyz"
-    udp: true
-
-  - name: "%E5%B0%BC%E6%B3%8A%E5%B0%94+V2CROSS.COM"
-    type: "vless"
-    server: "103.38.236.248"
-    port: 443
-    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
-    network: "ws"
-    sni: "snip.edgeoneai.cc.cd"
-    udp: true
-
-  - name: "%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A+V2CROSS.COM"
-    type: "vless"
-    server: "85.9.209.229"
-    port: 8880
-    uuid: "a441c530-8c8b-4ef9-8d98-0571ad49c433"
-    network: "tcp"
-    sni: "www.forvo.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "saas.sin.fan"
-    port: 443
-    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
-    network: "ws"
-    sni: "snip.edgeoneai.cc.cd"
-    udp: true
-
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
     server: "162.159.130.234"
@@ -183,12 +139,57 @@ proxies:
     sni: "snip.edgeoneai.cc.cd"
     udp: true
 
-  - name: "%E9%9F%A9%E5%9B%BD+%E9%A6%96%E5%B0%94Choopa%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-    type: "trojan"
-    server: "82164024@kr.tronsg.com"
+  - name: "%E6%97%A5%E6%9C%AC+V2CROSS.COM"
+    type: "vless"
+    server: "jp.sofast.live"
+    port: 52683
+    uuid: "399b6b23-cc40-4831-a494-61948e2df133"
+    network: "tcp"
+    sni: "jp.sofast.live"
+    udp: true
+
+  - name: "%E5%8D%B0%E5%BA%A6+V2CROSS.COM"
+    type: "vless"
+    server: "103.160.59.198"
     port: 443
-    password: "Trojan"
-    sni: "kr.tronsg.com"
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    network: "ws"
+    sni: "snip.edgeoneai.cc.cd"
+    udp: true
+
+  - name: "%E7%99%BD%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+    type: "vless"
+    server: "46.243.183.2"
+    port: 443
+    uuid: "6c713691-3ca2-4446-ad25-113d1bed6b03"
+    network: "tcp"
+    sni: "stream.indigo.ru"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "108.162.194.134"
+    port: 443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    udp: true
+
+  - name: "美国 V2CROSS.COM"
+    type: "vmess"
+    server: "oc.imfun.fun"
+    port: 18112
+    cipher: "auto"
+    uuid: "ad45f8f6-0f0a-4cc4-b907-c4582407dc94"
+    alterId: 0
+    network: "tcp"
+
+  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+    type: "vless"
+    server: "95.181.170.27"
+    port: 8443
+    uuid: "c96f941e-dd8a-00aa-89d5-740b79202ed0"
+    network: "tcp"
+    sni: "x5club.ru"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-138.199.42.68-0261"
@@ -1138,13 +1139,13 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E6%97%A5%E6%9C%AC+V2CROSS.COM"
+      - "%E5%8D%B0%E5%BA%A6+V2CROSS.COM"
+      - "%E7%99%BD%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "美国 V2CROSS.COM"
       - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E5%B0%BC%E6%B3%8A%E5%B0%94+V2CROSS.COM"
-      - "%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E9%9F%A9%E5%9B%BD+%E9%A6%96%E5%B0%94Choopa%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
       - "%F0%9F%87%BA%F0%9F%87%B8US-138.199.42.68-0261"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0142"
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.203-0131"
@@ -1171,13 +1172,13 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E6%97%A5%E6%9C%AC+V2CROSS.COM"
+      - "%E5%8D%B0%E5%BA%A6+V2CROSS.COM"
+      - "%E7%99%BD%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "美国 V2CROSS.COM"
       - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E5%B0%BC%E6%B3%8A%E5%B0%94+V2CROSS.COM"
-      - "%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E9%9F%A9%E5%9B%BD+%E9%A6%96%E5%B0%94Choopa%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
       - "%F0%9F%87%BA%F0%9F%87%B8US-138.199.42.68-0261"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0142"
       - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.203-0131"
