@@ -130,13 +130,67 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E6%8C%AA%E5%A8%81+V2CROSS.COM"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "138.124.98.219"
+    server: "www.speedtest.net"
     port: 443
-    uuid: "92295a0d-b610-4075-85e9-bfab09ec6f3a"
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    network: "ws"
+    sni: "snip.edgeoneai.cc.cd"
+    udp: true
+
+  - name: "%E6%97%A5%E6%9C%AC+V2CROSS.COM"
+    type: "vless"
+    server: "us22.sofast.live"
+    port: 58011
+    uuid: "0afc6426-606c-48e7-bd70-3c424a416842"
     network: "tcp"
-    sni: "www.ah.nl"
+    sni: "us22.sofast.live"
+    udp: true
+
+  - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "80.93.202.40"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: "ws"
+    sni: "80.93.202.40"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "104.16.10.2"
+    port: 443
+    uuid: "3c52e091-6714-4915-949f-2149fe69951b"
+    network: "ws"
+    sni: "v2ray.simspeedup.com"
+    udp: true
+
+  - name: "%E6%97%A5%E6%9C%AC+V2CROSS.COM"
+    type: "vless"
+    server: "3696b38bsg.murphyweb.sbs"
+    port: 32134
+    uuid: "5b01dc2d-6892-49b8-8289-3f73a32e00e4"
+    network: "tcp"
+    sni: "buylite.music.apple.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "cf.130519.xyz"
+    port: 443
+    uuid: "5e610f80-fc6a-479d-8621-b672355b96a1"
+    network: "ws"
+    sni: "cf-1rm.pages.dev"
+    udp: true
+
+  - name: "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
+    type: "vless"
+    server: "185.148.104.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: "ws"
+    sni: "185.148.104.30"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
@@ -145,40 +199,6 @@ proxies:
     port: 443
     password: "humanity"
     sni: "www.pleadcourt.org"
-    udp: true
-
-  - name: "%E7%99%BD%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-    type: "vless"
-    server: "46.243.183.2"
-    port: 443
-    uuid: "6c713691-3ca2-4446-ad25-113d1bed6b03"
-    network: "tcp"
-    sni: "stream.indigo.ru"
-    udp: true
-
-  - name: "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
-    type: "vless"
-    server: "177.1.187.139"
-    port: 1984
-    uuid: "d9eb02da-a469-44a7-a393-ba1c5fbbc8c4"
-    network: "tcp"
-    sni: "ruori.ai"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.27.21.22"
-    port: 443
-    password: "humanity"
-    sni: "www.volumeroot.com"
-    udp: true
-
-  - name: "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
-    type: "trojan"
-    server: "82.117.245.125"
-    port: 2053
-    password: "humanity"
-    sni: "www.calmlunch.com"
     udp: true
 
   - name: "%E5%9C%9F%E8%80%B3%E5%85%B6+V2CROSS.COM"
@@ -190,31 +210,30 @@ proxies:
     sni: "www.akakce.com"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+%E5%9C%A3%E5%87%AF%E7%91%9F%E7%90%B3%E5%A5%B3%E5%AD%90%E5%A4%A7%E5%AD%A6"
-    type: "vless"
-    server: "140.225.199.210"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.19.150.163"
     port: 443
-    uuid: "6c713691-3ca2-0009-ad25-113d1bed6b03"
-    network: "tcp"
-    sni: "hatch.senko.ru"
+    password: "123456"
+    sni: "now-pages-sub-em4.pages.dev"
     udp: true
 
-  - name: "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+  - name: "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
     type: "vless"
-    server: "152.233.71.81"
-    port: 443
-    uuid: "741809be-e44e-000b-b411-bf66f0ae3860"
-    network: "tcp"
-    sni: "brointelengence.com"
+    server: "154.197.75.40"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: "ws"
+    sni: "154.197.75.40"
     udp: true
 
-  - name: "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "31.56.18.67"
-    port: 2083
-    uuid: "0be0a2bf-aa20-4e52-aa5a-3d59d56b1582"
-    network: "tcp"
-    sni: "dege.underground.company"
+    server: "199.232.78.160"
+    port: 443
+    uuid: "XpnTeam-6"
+    network: "ws"
+    sni: "ssl.fastly.com"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0072"
@@ -1116,22 +1135,6 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "eDfN7SODQceIOmIAbtJJtK"
 
-  - name: "%F0%9F%87%A8%F0%9F%87%ADCH-132.243.175.144-0188"
-    type: "ss"
-    server: "132.243.175.144"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
-
-  - name: "🇰🇷KR-43.108.58.29-0794"
-    type: "vmess"
-    server: "JBQ4dPDPuJFzj4KV.v.3dns.vip"
-    port: 443
-    cipher: "auto"
-    uuid: "1d84e480-8fd2-4fae-96de-e46fe36ffe86"
-    alterId: 0
-    network: "ws"
-
 proxy-groups:
   - name: Proxy
     type: select
@@ -1152,21 +1155,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E6%8C%AA%E5%A8%81+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%99%BD%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+      - "%E6%97%A5%E6%9C%AC+V2CROSS.COM"
+      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
+      - "%E6%97%A5%E6%9C%AC+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E5%9C%9F%E8%80%B3%E5%85%B6+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+%E5%9C%A3%E5%87%AF%E7%91%9F%E7%90%B3%E5%A5%B3%E5%AD%90%E5%A4%A7%E5%AD%A6"
-      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
-      - "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0072"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.170-0069"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.168-0068"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.167-0070"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-140.82.63.79-0190"
   - name: Auto
     type: url-test
     proxies:
@@ -1185,21 +1188,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E6%8C%AA%E5%A8%81+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%99%BD%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+      - "%E6%97%A5%E6%9C%AC+V2CROSS.COM"
+      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
+      - "%E6%97%A5%E6%9C%AC+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E5%9C%9F%E8%80%B3%E5%85%B6+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+%E5%9C%A3%E5%87%AF%E7%91%9F%E7%90%B3%E5%A5%B3%E5%AD%90%E5%A4%A7%E5%AD%A6"
-      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
-      - "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%8D%97%E9%9D%9E+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.6-0072"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.170-0069"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.168-0068"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.167-0070"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-140.82.63.79-0190"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
