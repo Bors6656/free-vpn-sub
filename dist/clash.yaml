@@ -130,46 +130,19 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9AJustHost"
-    type: "ss"
-    server: "91.206.92.238"
-    port: 18443
-    cipher: "aes-256-gcm"
-    password: "cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa"
-
-  - name: "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
-    type: "vless"
-    server: "78.17.178.125"
-    port: 443
-    uuid: "6c713691-3ca2-4446-ad25-113d1bed6b03"
-    network: "tcp"
-    sni: "cdn.tbank.ru"
-    udp: true
-
   - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
     type: "ss"
-    server: "202.50.253.99"
+    server: "202.50.253.81"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
-  - name: "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
-    type: "vless"
-    server: "swedenafteraventura.space"
-    port: 443
-    uuid: "50a87e21-f0e2-4b53-a787-91adfe748f63"
-    network: "tcp"
-    sni: "swedenafteraventura.space"
-    udp: true
-
-  - name: "%E6%AC%A7%E7%9B%9F+V2CROSS.COM"
-    type: "vless"
-    server: "45.92.218.130"
-    port: 443
-    uuid: "9ff5db63-88ff-4276-ab71-ac2b5cb2a740"
-    network: "tcp"
-    sni: "delivery.mp.microsoft.com"
-    udp: true
+  - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+    type: "ss"
+    server: "202.50.253.27"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
   - name: "%E5%BE%B7%E5%9B%BD+V2CROSS.COM"
     type: "vless"
@@ -180,23 +153,86 @@ proxies:
     sni: "deepl.com"
     udp: true
 
-  - name: "%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-    type: "vless"
-    server: "funagfrdfs.alixxplay.com"
-    port: 46105
-    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
-    network: "tcp"
-    sni: "www.lamer.com.sg"
+  - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+    type: "ss"
+    server: "202.50.253.72"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "trojan"
+    server: "45.128.76.242"
+    port: 443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
     udp: true
 
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+  - name: "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
     type: "vless"
-    server: "46.8.43.125"
-    port: 443
-    uuid: "846cedee-2a52-4a62-a0b9-11850ead6a8b"
+    server: "funagfrdfs.alixxplay.com"
+    port: 54528
+    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
     network: "tcp"
-    sni: "kz-central.v8x2b.lol"
+    sni: "www.apple.com"
     udp: true
+
+  - name: "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
+    type: "vless"
+    server: "46.28.71.247"
+    port: 443
+    uuid: "12c53e32-e589-47d6-b857-e4132294f767"
+    network: "raw"
+    sni: "www.cloudflare.com"
+    udp: true
+
+  - name: "%E5%BE%B7%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "5.253.28.240"
+    port: 40443
+    uuid: "405b964e-a2d2-454f-aaaa-711cc218897c"
+    network: "raw"
+    sni: "deepl.com"
+    udp: true
+
+  - name: "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+    type: "vless"
+    server: "swedenafteraventura.space"
+    port: 443
+    uuid: "50a87e21-f0e2-4b53-a787-91adfe748f63"
+    network: "tcp"
+    sni: "swedenafteraventura.space"
+    udp: true
+
+  - name: "%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A+V2CROSS.COM"
+    type: "vless"
+    server: "195.123.213.28"
+    port: 443
+    uuid: "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24"
+    network: "tcp"
+    sni: "www.cloudflare.com"
+    udp: true
+
+  - name: "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+    type: "ss"
+    server: "177.202.111.20"
+    port: 56137
+    cipher: "chacha20-ietf-poly1305"
+    password: "uvKNudV-N8AUCrykPiyznA"
+
+  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+Rubtsovsk+Branch+of+Altai+State+University"
+    type: "ss"
+    server: "212.192.12.190"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "hZQt6qQVMUfJEkOY"
+
+  - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+    type: "ss"
+    server: "202.50.253.45"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0103"
     type: "ss"
@@ -1086,41 +1122,6 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.203-0122"
-    type: "ss"
-    server: "82.38.31.203"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%AE%F0%9F%87%B9IT-202.50.253.27-0138"
-    type: "ss"
-    server: "202.50.253.27"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-
-  - name: "%F0%9F%87%AE%F0%9F%87%B9IT-202.50.253.18-0139"
-    type: "ss"
-    server: "202.50.253.18"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.207-0120"
-    type: "ss"
-    server: "82.38.31.207"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.219-0119"
-    type: "ss"
-    server: "82.38.31.219"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
 proxy-groups:
   - name: Proxy
     type: select
@@ -1141,21 +1142,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9AJustHost"
-      - "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
       - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
-      - "%E6%AC%A7%E7%9B%9F+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
       - "%E5%BE%B7%E5%9B%BD+V2CROSS.COM"
-      - "%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
+      - "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
+      - "%E5%BE%B7%E5%9B%BD+V2CROSS.COM"
+      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+      - "%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A+V2CROSS.COM"
+      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+      - "%E4%BF%84%E7%BD%97%E6%96%AF+Rubtsovsk+Branch+of+Altai+State+University"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0103"
       - "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0108"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-45.86.51.18-0099"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.163.18-0100"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.160.9-0121"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.160.18-0101"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.167-0102"
   - name: Auto
     type: url-test
     proxies:
@@ -1174,21 +1175,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9AJustHost"
-      - "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
       - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
-      - "%E6%AC%A7%E7%9B%9F+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
       - "%E5%BE%B7%E5%9B%BD+V2CROSS.COM"
-      - "%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
+      - "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
+      - "%E5%BE%B7%E5%9B%BD+V2CROSS.COM"
+      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+      - "%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A+V2CROSS.COM"
+      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+      - "%E4%BF%84%E7%BD%97%E6%96%AF+Rubtsovsk+Branch+of+Altai+State+University"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0103"
       - "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0108"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-45.86.51.18-0099"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.163.18-0100"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.160.9-0121"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.160.18-0101"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.167-0102"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
