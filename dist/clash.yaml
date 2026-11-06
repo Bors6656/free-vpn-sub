@@ -138,12 +138,14 @@ proxies:
     sni: "courses.yourultimateprofessionalcareerhub.com"
     udp: true
 
-  - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-    type: "ss"
-    server: "202.50.253.63"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "%E5%8C%97%E4%BA%AC%E5%B8%82+%E6%83%9F%E8%AF%91%E5%A4%A9%E5%88%9B%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+    type: "vless"
+    server: "jp.sofast.live"
+    port: 52683
+    uuid: "5aaa5259-f924-4682-a4a3-149d472a9dcc"
+    network: "tcp"
+    sni: "jp.sofast.live"
+    udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+FDCServers%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
     type: "vless"
@@ -169,6 +171,13 @@ proxies:
     uuid: "0cf6d970-3f1d-4aae-a989-92a8f76ae3db"
     alterId: 0
     network: "ws"
+
+  - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+    type: "ss"
+    server: "202.50.253.36"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0109"
     type: "ss"
@@ -1107,13 +1116,6 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
 
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-104.239.12.81-0242"
-    type: "ss"
-    server: "sql.popmintxo.cc"
-    port: 43385
-    cipher: "chacha20-ietf-poly1305"
-    password: "AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa"
-
 proxy-groups:
   - name: Proxy
     type: select
@@ -1135,10 +1137,11 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E5%8C%97%E4%BA%AC%E5%B8%82+%E6%83%9F%E8%AF%91%E5%A4%A9%E5%88%9B%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
       - "%E7%BE%8E%E5%9B%BD+FDCServers%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "美国 CloudFlare节点"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0109"
       - "%F0%9F%87%BA%F0%9F%87%B8US-45.86.51.18-0102"
       - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.163.18-0101"
@@ -1148,7 +1151,6 @@ proxy-groups:
       - "%F0%9F%87%AC%F0%9F%87%A7GB-185.176.206.9-0108"
       - "%F0%9F%87%A6%F0%9F%87%AAAE-151.241.19.36-0113"
       - "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.168-5616"
-      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.187-0111"
   - name: Auto
     type: url-test
     proxies:
@@ -1168,10 +1170,11 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E5%8C%97%E4%BA%AC%E5%B8%82+%E6%83%9F%E8%AF%91%E5%A4%A9%E5%88%9B%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
       - "%E7%BE%8E%E5%9B%BD+FDCServers%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
       - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "美国 CloudFlare节点"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0109"
       - "%F0%9F%87%BA%F0%9F%87%B8US-45.86.51.18-0102"
       - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.163.18-0101"
@@ -1181,7 +1184,6 @@ proxy-groups:
       - "%F0%9F%87%AC%F0%9F%87%A7GB-185.176.206.9-0108"
       - "%F0%9F%87%A6%F0%9F%87%AAAE-151.241.19.36-0113"
       - "%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.168-5616"
-      - "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.187-0111"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
