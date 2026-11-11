@@ -132,20 +132,38 @@ proxies:
 
   - name: "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
     type: "vless"
-    server: "5.104.74.70"
+    server: "5.104.74.69"
     port: 8443
-    uuid: "a3d15e40-fa6b-4d11-af0b-24815c4b82fb"
+    uuid: "c6320c2e-15b3-4c3f-9d5a-d371828ea818"
     network: "tcp"
-    sni: "uk-room07.filesnap.tech"
+    sni: "uk-room06.filesnap.tech"
     udp: true
 
-  - name: "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+  - name: "%E6%99%BA%E5%88%A9+V2CROSS.COM"
     type: "vless"
-    server: "sundaylanzgem.site"
-    port: 443
-    uuid: "50a87e21-f0e2-4b53-a787-91adfe748f63"
+    server: "152.175.6.229"
+    port: 31884
+    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
     network: "tcp"
-    sni: "sundaylanzgem.site"
+    sni: "hk010.zestapp778.com"
+    udp: true
+
+  - name: "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
+    type: "vless"
+    server: "85.202.192.131"
+    port: 34033
+    uuid: "2cb6a5d1-0165-4bc2-aff2-832672160c56"
+    network: "tcp"
+    sni: "splitter.wb.ru"
+    udp: true
+
+  - name: "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
+    type: "vless"
+    server: "5.104.74.25"
+    port: 8443
+    uuid: "c1f87d4d-3ea2-4378-925a-b4942e930a7d"
+    network: "tcp"
+    sni: "uk-room07.filesnap.tech"
     udp: true
 
   - name: "%E7%91%9E%E5%85%B8+V2CROSS.COM"
@@ -156,22 +174,13 @@ proxies:
     sni: "blog.browseseniorrolesandenhanceyourcareertoday.com"
     udp: true
 
-  - name: "%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
+  - name: "%E7%91%9E%E5%A3%AB+V2CROSS.COM"
     type: "vless"
-    server: "212.69.135.26"
-    port: 8443
-    uuid: "c1b25259-727d-438a-bc7b-bc74f7b9917d"
-    network: "tcp"
-    sni: "uk-room05.filesnap.tech"
-    udp: true
-
-  - name: "%E6%97%A5%E6%9C%AC+V2CROSS.COM"
-    type: "vless"
-    server: "43.163.112.174"
+    server: "178.22.31.72"
     port: 443
-    uuid: "0dedd47d-47b9-4ed1-9c9f-cbeecad57a68"
-    network: "tcp"
-    sni: "www.cloudflare.com"
+    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
+    network: "raw"
+    sni: "at1.japancase.site"
     udp: true
 
   - name: "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
@@ -185,63 +194,27 @@ proxies:
 
   - name: "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
     type: "vless"
-    server: "5.104.74.129"
+    server: "5.104.74.156"
     port: 8443
-    uuid: "27974bac-4f89-4c54-a403-0bc1e1a52919"
+    uuid: "d21d837b-a69c-4bdb-b777-f285614d5a3f"
     network: "tcp"
-    sni: "uk-room05.filesnap.tech"
+    sni: "uk-room07.filesnap.tech"
     udp: true
 
   - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
     type: "ss"
-    server: "202.50.253.81"
+    server: "202.50.253.27"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
-  - name: "%E7%BE%8E%E5%9B%BD+FDC%E8%8A%9D%E5%8A%A0%E5%93%A5%E6%9C%BA%E6%88%BF"
+  - name: "%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
     type: "vless"
-    server: "prime.jarbook.net"
-    port: 443
-    uuid: "95d0e214-eab0-4701-93ed-fea4f1b56062"
-    network: "tcp"
-    sni: "prime.jarbook.net"
-    udp: true
-
-  - name: "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
-    type: "vless"
-    server: "5.104.74.69"
+    server: "212.69.135.27"
     port: 8443
-    uuid: "c6320c2e-15b3-4c3f-9d5a-d371828ea818"
+    uuid: "b3ac565c-fe3a-4279-868c-43c41c05e358"
     network: "tcp"
-    sni: "uk-room06.filesnap.tech"
-    udp: true
-
-  - name: "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
-    type: "vless"
-    server: "179.253.98.66"
-    port: 8443
-    uuid: "af185070-7170-46a8-b1e9-d61a035f4691"
-    network: "grpc"
-    sni: "skskks.top"
-    udp: true
-
-  - name: "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
-    type: "vless"
-    server: "85.202.192.131"
-    port: 34033
-    uuid: "2cb6a5d1-0165-4bc2-aff2-832672160c56"
-    network: "tcp"
-    sni: "splitter.wb.ru"
-    udp: true
-
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-    type: "vless"
-    server: "15d7fft.nl11.h1clayd.click"
-    port: 443
-    uuid: "b7b8ee80-db83-4276-8c68-87dc88b0b0b5"
-    network: "tcp"
-    sni: "15d7fft.nl11.h1clayd.click"
+    sni: "uk-room05.filesnap.tech"
     udp: true
 
   - name: "%E7%91%9E%E5%A3%AB+V2CROSS.COM"
@@ -253,31 +226,31 @@ proxies:
     sni: "at1.japancase.site"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+  - name: "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
     type: "vless"
-    server: "167.233.25.137"
+    server: "191.217.211.161"
     port: 443
-    uuid: "7e92da20-d9da-4d78-a64c-d032bc998e54"
+    uuid: "0806e6e2-e01d-482c-b530-be3b57d486d4"
     network: "tcp"
-    sni: "www.microsoft.com"
-    udp: true
-
-  - name: "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
-    type: "vless"
-    server: "5.104.74.25"
-    port: 8443
-    uuid: "c1f87d4d-3ea2-4378-925a-b4942e930a7d"
-    network: "tcp"
-    sni: "uk-room07.filesnap.tech"
+    sni: "pl1.song69.fun"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "104.18.26.90"
+    server: "104.21.89.41"
     port: 443
     uuid: "b8d8a5b0-867f-4491-b4e4-30edc04bb10e"
     network: "ws"
     sni: "u.srilankangrill.online"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+FDC%E8%8A%9D%E5%8A%A0%E5%93%A5%E6%9C%BA%E6%88%BF"
+    type: "vless"
+    server: "prime.jarbook.net"
+    port: 443
+    uuid: "95d0e214-eab0-4701-93ed-fea4f1b56062"
+    network: "tcp"
+    sni: "prime.jarbook.net"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0145"
@@ -1120,6 +1093,27 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
 
+  - name: "%F0%9F%87%AE%F0%9F%87%B9IT-202.50.253.99-0201"
+    type: "ss"
+    server: "202.50.253.99"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "%F0%9F%87%B8%F0%9F%87%ACSG-15.235.164.133-0290"
+    type: "ss"
+    server: "15.235.164.133"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "%F0%9F%87%B8%F0%9F%87%ACSG-15.235.182.183-0293"
+    type: "ss"
+    server: "15.235.182.183"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
 proxy-groups:
   - name: Proxy
     type: select
@@ -1141,20 +1135,20 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
-      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+      - "%E6%99%BA%E5%88%A9+V2CROSS.COM"
+      - "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
+      - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
       - "%E7%91%9E%E5%85%B8+V2CROSS.COM"
-      - "%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
-      - "%E6%97%A5%E6%9C%AC+V2CROSS.COM"
+      - "%E7%91%9E%E5%A3%AB+V2CROSS.COM"
       - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
       - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
       - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+FDC%E8%8A%9D%E5%8A%A0%E5%93%A5%E6%9C%BA%E6%88%BF"
-      - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
-      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
-      - "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+      - "%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
       - "%E7%91%9E%E5%A3%AB+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+FDC%E8%8A%9D%E5%8A%A0%E5%93%A5%E6%9C%BA%E6%88%BF"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0145"
   - name: Auto
     type: url-test
     proxies:
@@ -1174,20 +1168,20 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
-      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+      - "%E6%99%BA%E5%88%A9+V2CROSS.COM"
+      - "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
+      - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
       - "%E7%91%9E%E5%85%B8+V2CROSS.COM"
-      - "%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
-      - "%E6%97%A5%E6%9C%AC+V2CROSS.COM"
+      - "%E7%91%9E%E5%A3%AB+V2CROSS.COM"
       - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
       - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
       - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+FDC%E8%8A%9D%E5%8A%A0%E5%93%A5%E6%9C%BA%E6%88%BF"
-      - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
-      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
-      - "%E4%B9%8C%E5%85%8B%E5%85%B0+V2CROSS.COM"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
+      - "%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
       - "%E7%91%9E%E5%A3%AB+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+FDC%E8%8A%9D%E5%8A%A0%E5%93%A5%E6%9C%BA%E6%88%BF"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0145"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
