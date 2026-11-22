@@ -130,30 +130,21 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E7%88%B1%E6%B2%99%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
-    type: "vless"
-    server: "196.196.148.85"
-    port: 443
-    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
-    network: "tcp"
-    sni: "5d0319t.nl7.h1clayd.click"
+  - name: "%E9%A6%99%E6%B8%AF+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+    type: "trojan"
+    server: "sclass-00.catcat321.com"
+    port: 20123
+    password: "d9064589-74af-432a-9390-5d8a9da281bf"
+    sni: "hk.catxstar.com"
     udp: true
 
-  - name: "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "196.196.149.81"
+    server: "8a2e72t.nl20.h1clayd.shop"
     port: 443
     uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
     network: "tcp"
-    sni: "7aa271t.es1.h1clayd.click"
-    udp: true
-
-  - name: "%E9%A6%99%E6%B8%AF+%E8%91%B5%E5%85%B4%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-    type: "trojan"
-    server: "sclass-b1.catcat321.com"
-    port: 20051
-    password: "d7563108-615c-4338-a7bd-77f359869a4a"
-    sni: "hk.catxstar.com"
+    sni: "8a2e72t.nl20.h1clayd.shop"
     udp: true
 
   - name: "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
@@ -165,37 +156,107 @@ proxies:
     sni: "7aa271t.es1.h1clayd.click"
     udp: true
 
-  - name: "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
     type: "vless"
-    server: "pl.galacticworld.online"
+    server: "161.35.221.240"
     port: 443
-    uuid: "ecc0e60a-f2cc-4266-8353-b228df89730a"
-    network: "tcp"
-    sni: "pl.galacticworld.online"
+    uuid: "9be9e1e4-d1fc-4423-b22d-cd07a4381acb"
+    network: "ws"
+    sni: "cj1-e06.pages.dev"
+    udp: true
+
+  - name: "%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+    type: "trojan"
+    server: "sclass-c2.catcat321.com"
+    port: 20051
+    password: "d9064589-74af-432a-9390-5d8a9da281bf"
+    sni: "hk.catxstar.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "161.35.154.135"
+    port: 443
+    uuid: "9be9e1e4-d1fc-4423-b22d-cd07a4381acb"
+    network: "ws"
+    sni: "cj1-e06.pages.dev"
     udp: true
 
   - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
     type: "ss"
-    server: "202.50.253.54"
+    server: "202.50.253.27"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
-  - name: "%E5%A1%9E%E8%88%8C%E5%B0%94+V2CROSS.COM"
+  - name: "%E6%B3%A2%E5%85%B0+V2CROSS.COM"
     type: "vless"
-    server: "196.199.122.2"
+    server: "141.98.41.28"
     port: 443
-    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
-    network: "tcp"
-    sni: "7aa271t.es1.h1clayd.click"
+    uuid: "9be9e1e4-d1fc-4423-b22d-cd07a4381acb"
+    network: "ws"
+    sni: "cj1-e06.pages.dev"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+%E7%88%B1%E8%8D%B7%E5%8D%8E%E5%B7%9E%E5%BE%97%E6%A2%85%E5%9B%A0Microsoft%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+    type: "vless"
+    server: "23.94.67.209"
+    port: 443
+    uuid: "9be9e1e4-d1fc-4423-b22d-cd07a4381acb"
+    network: "ws"
+    sni: "cj1-e06.pages.dev"
+    udp: true
+
+  - name: "%E9%A6%99%E6%B8%AF+%E8%91%B5%E5%85%B4%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+    type: "trojan"
+    server: "sclass-01.catcat321.com"
+    port: 20103
+    password: "d7563108-615c-4338-a7bd-77f359869a4a"
+    sni: "hk.catxstar.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "104.16.243.122"
+    port: 2053
+    uuid: "51a0af77-a60c-4d9b-81a4-f50e1b38d90b"
+    network: "ws"
+    sni: "j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev"
     udp: true
 
   - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
     type: "ss"
-    server: "202.50.253.18"
+    server: "202.50.253.99"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "2.26.251.236"
+    port: 443
+    uuid: "c16e8cdb-65dd-4049-bc65-14c051b8a6c6"
+    network: "tcp"
+    sni: "mental-deprivation.ru"
+    udp: true
+
+  - name: "%E7%91%9E%E5%A3%AB+V2CROSS.COM"
+    type: "vless"
+    server: "83.228.193.229"
+    port: 443
+    uuid: "9be9e1e4-d1fc-4423-b22d-cd07a4381acb"
+    network: "ws"
+    sni: "cj1-e06.pages.dev"
+    udp: true
+
+  - name: "韩国 首尔Amazon数据中心"
+    type: "vmess"
+    server: "dp8yk.xiaoyan.io"
+    port: 16616
+    cipher: "auto"
+    uuid: "904f0569-8695-466f-97cf-0de2face1b46"
+    alterId: 0
+    network: "ws"
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-45.86.51.18-0117"
     type: "ss"
@@ -1045,55 +1106,6 @@ proxies:
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
-  - name: "%F0%9F%87%AE%F0%9F%87%B9IT-202.50.253.63-0259"
-    type: "ss"
-    server: "202.50.253.63"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-
-  - name: "%F0%9F%87%B5%F0%9F%87%B1PL-217.30.10.70-5409"
-    type: "ss"
-    server: "217.30.10.70"
-    port: 9057
-    cipher: "aes-256-cfb"
-    password: "wjTugX3ZtHMB9c3Z"
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.176-0307"
-    type: "ss"
-    server: "82.38.31.176"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-218.237.185.234-0233"
-    type: "ss"
-    server: "p141.panda001.net"
-    port: 4652
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-
-  - name: "%F0%9F%87%A8%F0%9F%87%A6CA-51.79.85.185-0252"
-    type: "ss"
-    server: "51.79.85.185"
-    port: 8118
-    cipher: "aes-256-gcm"
-    password: "cdBIDV42DCwnfIN"
-
-  - name: "%F0%9F%87%BA%F0%9F%87%B8US-15.204.247.206-0224"
-    type: "ss"
-    server: "15.204.247.206"
-    port: 4444
-    cipher: "aes-256-gcm"
-    password: "pKEW8JPByTVTLtM"
-
-  - name: "%F0%9F%87%AF%F0%9F%87%B5JP-168.138.205.100-0258"
-    type: "ss"
-    server: "jpa.123069.xyz"
-    port: 53758
-    cipher: "aes-128-gcm"
-    password: "Bwlqh7GcFB"
-
 proxy-groups:
   - name: Proxy
     type: select
@@ -1114,21 +1126,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E7%88%B1%E6%B2%99%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
+      - "%E9%A6%99%E6%B8%AF+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E6%B3%A2%E5%85%B0+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+%E7%88%B1%E8%8D%B7%E5%8D%8E%E5%B7%9E%E5%BE%97%E6%A2%85%E5%9B%A0Microsoft%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
       - "%E9%A6%99%E6%B8%AF+%E8%91%B5%E5%85%B4%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
-      - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%E5%A1%9E%E8%88%8C%E5%B0%94+V2CROSS.COM"
-      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-45.86.51.18-0117"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0122"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.163.18-0116"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.168-0198"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.160.9-0119"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.170-0158"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0157"
+      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+      - "%E7%91%9E%E5%A3%AB+V2CROSS.COM"
+      - "韩国 首尔Amazon数据中心"
   - name: Auto
     type: url-test
     proxies:
@@ -1147,21 +1159,21 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E7%88%B1%E6%B2%99%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
+      - "%E9%A6%99%E6%B8%AF+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E6%B3%A2%E5%85%B0+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+%E7%88%B1%E8%8D%B7%E5%8D%8E%E5%B7%9E%E5%BE%97%E6%A2%85%E5%9B%A0Microsoft%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
       - "%E9%A6%99%E6%B8%AF+%E8%91%B5%E5%85%B4%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
-      - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%E5%A1%9E%E8%88%8C%E5%B0%94+V2CROSS.COM"
-      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-45.86.51.18-0117"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0122"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.163.18-0116"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.168-0198"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.160.9-0119"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.170-0158"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0157"
+      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+      - "%E7%91%9E%E5%A3%AB+V2CROSS.COM"
+      - "韩国 首尔Amazon数据中心"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
